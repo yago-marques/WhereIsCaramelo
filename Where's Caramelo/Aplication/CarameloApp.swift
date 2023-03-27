@@ -8,12 +8,12 @@
 import SwiftUI
 
 @main
-struct Where_s_CarameloApp: App {
+struct CarameloApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FinderPuzzleView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

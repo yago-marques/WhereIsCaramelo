@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DFD12FB529D1D67300BA7850 /* Where_s_CarameloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FB429D1D67300BA7850 /* Where_s_CarameloApp.swift */; };
-		DFD12FB729D1D67300BA7850 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FB629D1D67300BA7850 /* ContentView.swift */; };
+		DFD12FB529D1D67300BA7850 /* CarameloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FB429D1D67300BA7850 /* CarameloApp.swift */; };
+		DFD12FB729D1D67300BA7850 /* FinderPuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FB629D1D67300BA7850 /* FinderPuzzleView.swift */; };
 		DFD12FB929D1D67300BA7850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD12FB829D1D67300BA7850 /* Assets.xcassets */; };
-		DFD12FBC29D1D67300BA7850 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD12FBB29D1D67300BA7850 /* Preview Assets.xcassets */; };
 		DFD12FBE29D1D67300BA7850 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FBD29D1D67300BA7850 /* Persistence.swift */; };
-		DFD12FC129D1D67300BA7850 /* Where_s_Caramelo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FBF29D1D67300BA7850 /* Where_s_Caramelo.xcdatamodeld */; };
 		DFD12FCB29D1D67300BA7850 /* Where_s_CarameloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FCA29D1D67300BA7850 /* Where_s_CarameloTests.swift */; };
 		DFD12FD529D1D67300BA7850 /* Where_s_CarameloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FD429D1D67300BA7850 /* Where_s_CarameloUITests.swift */; };
 		DFD12FD729D1D67300BA7850 /* Where_s_CarameloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FD629D1D67300BA7850 /* Where_s_CarameloUITestsLaunchTests.swift */; };
+		DFD12FE429D1DA4400BA7850 /* FinderPuzzleCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FE329D1DA4400BA7850 /* FinderPuzzleCity.swift */; };
+		DFD12FED29D2125E00BA7850 /* CarameloApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FEB29D2125E00BA7850 /* CarameloApp.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,17 +37,17 @@
 
 /* Begin PBXFileReference section */
 		DFD12FB129D1D67300BA7850 /* Where's Caramelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Where's Caramelo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFD12FB429D1D67300BA7850 /* Where_s_CarameloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Where_s_CarameloApp.swift; sourceTree = "<group>"; };
-		DFD12FB629D1D67300BA7850 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFD12FB429D1D67300BA7850 /* CarameloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarameloApp.swift; sourceTree = "<group>"; };
+		DFD12FB629D1D67300BA7850 /* FinderPuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderPuzzleView.swift; sourceTree = "<group>"; };
 		DFD12FB829D1D67300BA7850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DFD12FBB29D1D67300BA7850 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DFD12FBD29D1D67300BA7850 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		DFD12FC029D1D67300BA7850 /* Where_s_Caramelo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Where_s_Caramelo.xcdatamodel; sourceTree = "<group>"; };
 		DFD12FC629D1D67300BA7850 /* Where's CarameloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Where's CarameloTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD12FCA29D1D67300BA7850 /* Where_s_CarameloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Where_s_CarameloTests.swift; sourceTree = "<group>"; };
 		DFD12FD029D1D67300BA7850 /* Where's CarameloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Where's CarameloUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD12FD429D1D67300BA7850 /* Where_s_CarameloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Where_s_CarameloUITests.swift; sourceTree = "<group>"; };
 		DFD12FD629D1D67300BA7850 /* Where_s_CarameloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Where_s_CarameloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DFD12FE329D1DA4400BA7850 /* FinderPuzzleCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderPuzzleCity.swift; sourceTree = "<group>"; };
+		DFD12FEC29D2125E00BA7850 /* CarameloApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarameloApp.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,22 +98,11 @@
 		DFD12FB329D1D67300BA7850 /* Where's Caramelo */ = {
 			isa = PBXGroup;
 			children = (
-				DFD12FB429D1D67300BA7850 /* Where_s_CarameloApp.swift */,
-				DFD12FB629D1D67300BA7850 /* ContentView.swift */,
-				DFD12FB829D1D67300BA7850 /* Assets.xcassets */,
-				DFD12FBD29D1D67300BA7850 /* Persistence.swift */,
-				DFD12FBF29D1D67300BA7850 /* Where_s_Caramelo.xcdatamodeld */,
-				DFD12FBA29D1D67300BA7850 /* Preview Content */,
+				DFD12FEA29D211F400BA7850 /* Aplication */,
+				DFD12FE929D211E600BA7850 /* Resources */,
+				DFD12FE529D2115000BA7850 /* Source */,
 			);
 			path = "Where's Caramelo";
-			sourceTree = "<group>";
-		};
-		DFD12FBA29D1D67300BA7850 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				DFD12FBB29D1D67300BA7850 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		DFD12FC929D1D67300BA7850 /* Where's CarameloTests */ = {
@@ -131,6 +120,65 @@
 				DFD12FD629D1D67300BA7850 /* Where_s_CarameloUITestsLaunchTests.swift */,
 			);
 			path = "Where's CarameloUITests";
+			sourceTree = "<group>";
+		};
+		DFD12FE529D2115000BA7850 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FEB29D2125E00BA7850 /* CarameloApp.xcdatamodeld */,
+				DFD12FE629D2115E00BA7850 /* CarameloModes */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DFD12FE629D2115E00BA7850 /* CarameloModes */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FE729D2116600BA7850 /* FinderPuzzle */,
+			);
+			path = CarameloModes;
+			sourceTree = "<group>";
+		};
+		DFD12FE729D2116600BA7850 /* FinderPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FEE29D213DB00BA7850 /* CitiesList */,
+			);
+			path = FinderPuzzle;
+			sourceTree = "<group>";
+		};
+		DFD12FE829D2118F00BA7850 /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FE329D1DA4400BA7850 /* FinderPuzzleCity.swift */,
+			);
+			path = "UI Components";
+			sourceTree = "<group>";
+		};
+		DFD12FE929D211E600BA7850 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FB829D1D67300BA7850 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DFD12FEA29D211F400BA7850 /* Aplication */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FB429D1D67300BA7850 /* CarameloApp.swift */,
+				DFD12FBD29D1D67300BA7850 /* Persistence.swift */,
+			);
+			path = Aplication;
+			sourceTree = "<group>";
+		};
+		DFD12FEE29D213DB00BA7850 /* CitiesList */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FE829D2118F00BA7850 /* UI Components */,
+				DFD12FB629D1D67300BA7850 /* FinderPuzzleView.swift */,
+			);
+			path = CitiesList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +285,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFD12FBC29D1D67300BA7850 /* Preview Assets.xcassets in Resources */,
 				DFD12FB929D1D67300BA7850 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,9 +311,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFD12FBE29D1D67300BA7850 /* Persistence.swift in Sources */,
-				DFD12FC129D1D67300BA7850 /* Where_s_Caramelo.xcdatamodeld in Sources */,
-				DFD12FB729D1D67300BA7850 /* ContentView.swift in Sources */,
-				DFD12FB529D1D67300BA7850 /* Where_s_CarameloApp.swift in Sources */,
+				DFD12FE429D1DA4400BA7850 /* FinderPuzzleCity.swift in Sources */,
+				DFD12FED29D2125E00BA7850 /* CarameloApp.xcdatamodeld in Sources */,
+				DFD12FB729D1D67300BA7850 /* FinderPuzzleView.swift in Sources */,
+				DFD12FB529D1D67300BA7850 /* CarameloApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +472,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Where's Caramelo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Where's Caramelo/Resources\"";
 				DEVELOPMENT_TEAM = 3PC4MSN8T7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -453,7 +501,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Where's Caramelo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Where's Caramelo/Resources\"";
 				DEVELOPMENT_TEAM = 3PC4MSN8T7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -593,13 +641,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		DFD12FBF29D1D67300BA7850 /* Where_s_Caramelo.xcdatamodeld */ = {
+		DFD12FEB29D2125E00BA7850 /* CarameloApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				DFD12FC029D1D67300BA7850 /* Where_s_Caramelo.xcdatamodel */,
+				DFD12FEC29D2125E00BA7850 /* CarameloApp.xcdatamodel */,
 			);
-			currentVersion = DFD12FC029D1D67300BA7850 /* Where_s_Caramelo.xcdatamodel */;
-			path = Where_s_Caramelo.xcdatamodeld;
+			currentVersion = DFD12FEC29D2125E00BA7850 /* CarameloApp.xcdatamodel */;
+			path = CarameloApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
