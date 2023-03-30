@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF29EEB929D4A27A00BD9F81 /* FPRemoteCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29EEB829D4A27A00BD9F81 /* FPRemoteCity.swift */; };
+		DF29EEBB29D4A2C000BD9F81 /* FPRemoteStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29EEBA29D4A2C000BD9F81 /* FPRemoteStage.swift */; };
+		DF29EEBE29D4A34E00BD9F81 /* FPDatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29EEBD29D4A34E00BD9F81 /* FPDatabaseService.swift */; };
+		DF29EEC129D4A49700BD9F81 /* CoredataPersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29EEC029D4A49700BD9F81 /* CoredataPersistanceManager.swift */; };
+		DF29EEC429D4A5D500BD9F81 /* FinderPuzzleDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29EEC329D4A5D500BD9F81 /* FinderPuzzleDatabase.swift */; };
+		DF7986C729D5CA96003A559C /* CitiesListComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7986C629D5CA96003A559C /* CitiesListComposer.swift */; };
+		DFB0B10129D5A9DA001B544A /* FPStageBusinessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B10029D5A9DA001B544A /* FPStageBusinessModel.swift */; };
+		DFB0B10429D5AA71001B544A /* FPCityMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B10329D5AA71001B544A /* FPCityMapper.swift */; };
+		DFB0B10629D5AC0C001B544A /* FPStageMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B10529D5AC0C001B544A /* FPStageMapper.swift */; };
+		DFB0B10A29D5AE08001B544A /* FPCityPresentationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B10929D5AE08001B544A /* FPCityPresentationModel.swift */; };
+		DFB0B10C29D5AE29001B544A /* FinderPuzzleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B10B29D5AE29001B544A /* FinderPuzzleViewModel.swift */; };
+		DFB0B10F29D5B73B001B544A /* FPGameCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B10E29D5B73B001B544A /* FPGameCities.swift */; };
+		DFB0B11129D5BAD3001B544A /* FPCitiesConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B11029D5BAD3001B544A /* FPCitiesConfig.swift */; };
+		DFB0B11329D5C660001B544A /* VerifyFirstUserAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B11229D5C660001B544A /* VerifyFirstUserAccess.swift */; };
+		DFB0B11529D5C6D4001B544A /* RegisterFirstUserAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B11429D5C6D4001B544A /* RegisterFirstUserAccess.swift */; };
+		DFB0B11729D5C731001B544A /* UserAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B11629D5C731001B544A /* UserAccessManager.swift */; };
 		DFD12FB529D1D67300BA7850 /* CarameloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FB429D1D67300BA7850 /* CarameloApp.swift */; };
 		DFD12FB729D1D67300BA7850 /* FinderPuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FB629D1D67300BA7850 /* FinderPuzzleView.swift */; };
 		DFD12FB929D1D67300BA7850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD12FB829D1D67300BA7850 /* Assets.xcassets */; };
@@ -16,6 +32,10 @@
 		DFD12FD729D1D67300BA7850 /* Where_s_CarameloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FD629D1D67300BA7850 /* Where_s_CarameloUITestsLaunchTests.swift */; };
 		DFD12FE429D1DA4400BA7850 /* FinderPuzzleCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FE329D1DA4400BA7850 /* FinderPuzzleCity.swift */; };
 		DFD12FED29D2125E00BA7850 /* CarameloApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FEB29D2125E00BA7850 /* CarameloApp.xcdatamodeld */; };
+		DFEA14B629D4B37B003401C1 /* FPCityBusinessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA14B529D4B37B003401C1 /* FPCityBusinessModel.swift */; };
+		DFEA14BA29D4C224003401C1 /* LoadCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA14B929D4C224003401C1 /* LoadCities.swift */; };
+		DFEA14BC29D4C29C003401C1 /* UpdateCityStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA14BB29D4C29C003401C1 /* UpdateCityStage.swift */; };
+		DFEA14BE29D4C2D9003401C1 /* CreateCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA14BD29D4C2D9003401C1 /* CreateCity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +56,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF29EEB829D4A27A00BD9F81 /* FPRemoteCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPRemoteCity.swift; sourceTree = "<group>"; };
+		DF29EEBA29D4A2C000BD9F81 /* FPRemoteStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPRemoteStage.swift; sourceTree = "<group>"; };
+		DF29EEBD29D4A34E00BD9F81 /* FPDatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPDatabaseService.swift; sourceTree = "<group>"; };
+		DF29EEC029D4A49700BD9F81 /* CoredataPersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataPersistanceManager.swift; sourceTree = "<group>"; };
+		DF29EEC329D4A5D500BD9F81 /* FinderPuzzleDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderPuzzleDatabase.swift; sourceTree = "<group>"; };
+		DF7986C629D5CA96003A559C /* CitiesListComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesListComposer.swift; sourceTree = "<group>"; };
+		DFB0B10029D5A9DA001B544A /* FPStageBusinessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPStageBusinessModel.swift; sourceTree = "<group>"; };
+		DFB0B10329D5AA71001B544A /* FPCityMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPCityMapper.swift; sourceTree = "<group>"; };
+		DFB0B10529D5AC0C001B544A /* FPStageMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPStageMapper.swift; sourceTree = "<group>"; };
+		DFB0B10929D5AE08001B544A /* FPCityPresentationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPCityPresentationModel.swift; sourceTree = "<group>"; };
+		DFB0B10B29D5AE29001B544A /* FinderPuzzleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderPuzzleViewModel.swift; sourceTree = "<group>"; };
+		DFB0B10E29D5B73B001B544A /* FPGameCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPGameCities.swift; sourceTree = "<group>"; };
+		DFB0B11029D5BAD3001B544A /* FPCitiesConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPCitiesConfig.swift; sourceTree = "<group>"; };
+		DFB0B11229D5C660001B544A /* VerifyFirstUserAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyFirstUserAccess.swift; sourceTree = "<group>"; };
+		DFB0B11429D5C6D4001B544A /* RegisterFirstUserAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFirstUserAccess.swift; sourceTree = "<group>"; };
+		DFB0B11629D5C731001B544A /* UserAccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccessManager.swift; sourceTree = "<group>"; };
 		DFD12FB129D1D67300BA7850 /* Where's Caramelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Where's Caramelo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD12FB429D1D67300BA7850 /* CarameloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarameloApp.swift; sourceTree = "<group>"; };
 		DFD12FB629D1D67300BA7850 /* FinderPuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderPuzzleView.swift; sourceTree = "<group>"; };
@@ -49,6 +85,10 @@
 		DFD12FE329D1DA4400BA7850 /* FinderPuzzleCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderPuzzleCity.swift; sourceTree = "<group>"; };
 		DFD12FEC29D2125E00BA7850 /* CarameloApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarameloApp.xcdatamodel; sourceTree = "<group>"; };
 		DFD12FEF29D241F500BA7850 /* Where-s-Caramelo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Where-s-Caramelo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DFEA14B529D4B37B003401C1 /* FPCityBusinessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPCityBusinessModel.swift; sourceTree = "<group>"; };
+		DFEA14B929D4C224003401C1 /* LoadCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadCities.swift; sourceTree = "<group>"; };
+		DFEA14BB29D4C29C003401C1 /* UpdateCityStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCityStage.swift; sourceTree = "<group>"; };
+		DFEA14BD29D4C2D9003401C1 /* CreateCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +116,127 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF29EEB329D48F0C00BD9F81 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FEE29D213DB00BA7850 /* CitiesList */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		DF29EEB529D48F3800BD9F81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FE829D2118F00BA7850 /* UI Components */,
+				DFD12FB629D1D67300BA7850 /* FinderPuzzleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF29EEB629D4A20800BD9F81 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				DF29EEB729D4A21600BD9F81 /* DomainModels */,
+				DF29EEC229D4A5AF00BD9F81 /* DomainContracts */,
+				DF29EEBC29D4A31400BD9F81 /* DomainServices */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		DF29EEB729D4A21600BD9F81 /* DomainModels */ = {
+			isa = PBXGroup;
+			children = (
+				DF29EEB829D4A27A00BD9F81 /* FPRemoteCity.swift */,
+				DF29EEBA29D4A2C000BD9F81 /* FPRemoteStage.swift */,
+			);
+			path = DomainModels;
+			sourceTree = "<group>";
+		};
+		DF29EEBC29D4A31400BD9F81 /* DomainServices */ = {
+			isa = PBXGroup;
+			children = (
+				DFEA14BF29D4C436003401C1 /* Persistance */,
+			);
+			path = DomainServices;
+			sourceTree = "<group>";
+		};
+		DF29EEBF29D4A46A00BD9F81 /* Coredata */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FEB29D2125E00BA7850 /* CarameloApp.xcdatamodeld */,
+				DF29EEC029D4A49700BD9F81 /* CoredataPersistanceManager.swift */,
+			);
+			path = Coredata;
+			sourceTree = "<group>";
+		};
+		DF29EEC229D4A5AF00BD9F81 /* DomainContracts */ = {
+			isa = PBXGroup;
+			children = (
+				DF29EEC329D4A5D500BD9F81 /* FinderPuzzleDatabase.swift */,
+				DFB0B11629D5C731001B544A /* UserAccessManager.swift */,
+			);
+			path = DomainContracts;
+			sourceTree = "<group>";
+		};
+		DF29EEC529D4A81E00BD9F81 /* DatabaseWorker */ = {
+			isa = PBXGroup;
+			children = (
+				DF29EEBF29D4A46A00BD9F81 /* Coredata */,
+			);
+			path = DatabaseWorker;
+			sourceTree = "<group>";
+		};
+		DF7986C529D5CA83003A559C /* Composer */ = {
+			isa = PBXGroup;
+			children = (
+				DF7986C629D5CA96003A559C /* CitiesListComposer.swift */,
+			);
+			path = Composer;
+			sourceTree = "<group>";
+		};
+		DFB0B0FF29D5A936001B544A /* BusinessModels */ = {
+			isa = PBXGroup;
+			children = (
+				DFEA14B529D4B37B003401C1 /* FPCityBusinessModel.swift */,
+				DFB0B10029D5A9DA001B544A /* FPStageBusinessModel.swift */,
+			);
+			path = BusinessModels;
+			sourceTree = "<group>";
+		};
+		DFB0B10229D5AA5F001B544A /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0B10329D5AA71001B544A /* FPCityMapper.swift */,
+				DFB0B10529D5AC0C001B544A /* FPStageMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		DFB0B10729D5ADC3001B544A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0B10B29D5AE29001B544A /* FinderPuzzleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DFB0B10829D5ADD0001B544A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0B10929D5AE08001B544A /* FPCityPresentationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFB0B10D29D5B71B001B544A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0B10E29D5B73B001B544A /* FPGameCities.swift */,
+				DFB0B11029D5BAD3001B544A /* FPCitiesConfig.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		DFD12FA829D1D67200BA7850 = {
 			isa = PBXGroup;
 			children = (
@@ -127,24 +288,26 @@
 		DFD12FE529D2115000BA7850 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DFD12FEB29D2125E00BA7850 /* CarameloApp.xcdatamodeld */,
-				DFD12FE629D2115E00BA7850 /* CarameloModes */,
+				DFB0B10229D5AA5F001B544A /* Mapper */,
+				DF29EEB629D4A20800BD9F81 /* Domain */,
+				DFEA14B729D4C1DB003401C1 /* Application */,
+				DFD12FE629D2115E00BA7850 /* Presentation */,
 			);
 			path = Source;
 			sourceTree = "<group>";
 		};
-		DFD12FE629D2115E00BA7850 /* CarameloModes */ = {
+		DFD12FE629D2115E00BA7850 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
 				DFD12FE729D2116600BA7850 /* FinderPuzzle */,
 			);
-			path = CarameloModes;
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 		DFD12FE729D2116600BA7850 /* FinderPuzzle */ = {
 			isa = PBXGroup;
 			children = (
-				DFD12FEE29D213DB00BA7850 /* CitiesList */,
+				DF29EEB329D48F0C00BD9F81 /* Scenes */,
 			);
 			path = FinderPuzzle;
 			sourceTree = "<group>";
@@ -177,10 +340,43 @@
 		DFD12FEE29D213DB00BA7850 /* CitiesList */ = {
 			isa = PBXGroup;
 			children = (
-				DFD12FE829D2118F00BA7850 /* UI Components */,
-				DFD12FB629D1D67300BA7850 /* FinderPuzzleView.swift */,
+				DF7986C529D5CA83003A559C /* Composer */,
+				DFB0B10D29D5B71B001B544A /* Constants */,
+				DFB0B10829D5ADD0001B544A /* Model */,
+				DF29EEB529D48F3800BD9F81 /* View */,
+				DFB0B10729D5ADC3001B544A /* ViewModel */,
 			);
 			path = CitiesList;
+			sourceTree = "<group>";
+		};
+		DFEA14B729D4C1DB003401C1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DFEA14B829D4C1EF003401C1 /* FinderPuzzleUseCases */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DFEA14B829D4C1EF003401C1 /* FinderPuzzleUseCases */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0B0FF29D5A936001B544A /* BusinessModels */,
+				DFEA14B929D4C224003401C1 /* LoadCities.swift */,
+				DFEA14BB29D4C29C003401C1 /* UpdateCityStage.swift */,
+				DFEA14BD29D4C2D9003401C1 /* CreateCity.swift */,
+				DFB0B11229D5C660001B544A /* VerifyFirstUserAccess.swift */,
+				DFB0B11429D5C6D4001B544A /* RegisterFirstUserAccess.swift */,
+			);
+			path = FinderPuzzleUseCases;
+			sourceTree = "<group>";
+		};
+		DFEA14BF29D4C436003401C1 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				DF29EEC529D4A81E00BD9F81 /* DatabaseWorker */,
+				DF29EEBD29D4A34E00BD9F81 /* FPDatabaseService.swift */,
+			);
+			path = Persistance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,10 +508,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB0B10A29D5AE08001B544A /* FPCityPresentationModel.swift in Sources */,
+				DFEA14BE29D4C2D9003401C1 /* CreateCity.swift in Sources */,
+				DFEA14B629D4B37B003401C1 /* FPCityBusinessModel.swift in Sources */,
+				DFB0B11529D5C6D4001B544A /* RegisterFirstUserAccess.swift in Sources */,
+				DF29EEC429D4A5D500BD9F81 /* FinderPuzzleDatabase.swift in Sources */,
 				DFD12FBE29D1D67300BA7850 /* Persistence.swift in Sources */,
 				DFD12FE429D1DA4400BA7850 /* FinderPuzzleCity.swift in Sources */,
+				DFB0B10129D5A9DA001B544A /* FPStageBusinessModel.swift in Sources */,
+				DFB0B11129D5BAD3001B544A /* FPCitiesConfig.swift in Sources */,
+				DF29EEC129D4A49700BD9F81 /* CoredataPersistanceManager.swift in Sources */,
 				DFD12FED29D2125E00BA7850 /* CarameloApp.xcdatamodeld in Sources */,
+				DF29EEBB29D4A2C000BD9F81 /* FPRemoteStage.swift in Sources */,
+				DFB0B10F29D5B73B001B544A /* FPGameCities.swift in Sources */,
 				DFD12FB729D1D67300BA7850 /* FinderPuzzleView.swift in Sources */,
+				DFB0B11729D5C731001B544A /* UserAccessManager.swift in Sources */,
+				DFB0B10C29D5AE29001B544A /* FinderPuzzleViewModel.swift in Sources */,
+				DFB0B10429D5AA71001B544A /* FPCityMapper.swift in Sources */,
+				DFB0B11329D5C660001B544A /* VerifyFirstUserAccess.swift in Sources */,
+				DFB0B10629D5AC0C001B544A /* FPStageMapper.swift in Sources */,
+				DF7986C729D5CA96003A559C /* CitiesListComposer.swift in Sources */,
+				DFEA14BA29D4C224003401C1 /* LoadCities.swift in Sources */,
+				DF29EEB929D4A27A00BD9F81 /* FPRemoteCity.swift in Sources */,
+				DF29EEBE29D4A34E00BD9F81 /* FPDatabaseService.swift in Sources */,
+				DFEA14BC29D4C29C003401C1 /* UpdateCityStage.swift in Sources */,
 				DFD12FB529D1D67300BA7850 /* CarameloApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,9 +706,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.yago.Where-s-Caramelo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Debug;
 		};
@@ -519,9 +738,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.yago.Where-s-Caramelo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Release;
 		};

@@ -8,20 +8,16 @@
 import SwiftUI
 
 struct FinderPuzzleCity: View {
-    @Binding var viewModel: FinderPuzzleCityViewModel
-
-    private var centerImage: String {
-        viewModel.isActive ? "unlocked" : "locked"
-    }
+    @Binding var presentatioModel: FPCityPresentationModel
 
     private var blurRatio: CGFloat {
-        viewModel.isActive ? 0 : 1.5
+        presentatioModel.status == .locked ? 1.5 : 0
     }
 
     var body: some View {
 
         ZStack {
-            Image(viewModel.image)
+            Image(presentatioModel.imageBackground)
                 .resizable()
                 .frame(height: deviceWidth(multiplier: 0.4))
                 .cornerRadius(15)
@@ -33,7 +29,7 @@ struct FinderPuzzleCity: View {
                         Image("carameloStatus")
                             .resizable()
                             .frame(width: 20, height: 20)
-                        Text("\(viewModel.completedStages) / \(viewModel.allStages)")
+                        Text("\(presentatioModel.completedStages) / \(presentatioModel.allStages)")
                             .fontWeight(.bold)
                             .font(.headline)
                     }
@@ -49,7 +45,7 @@ struct FinderPuzzleCity: View {
             }
             .padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
 
-            Image(centerImage)
+            Image(presentatioModel.status.rawValue)
         }
         .padding(EdgeInsets(top: 7, leading: 0, bottom: 7, trailing: 0))
         .shadow(color: .secondary.opacity(0.2), radius: 5, x: 0, y: 10)
