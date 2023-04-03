@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AEC6A55429DB14F9000C84F9 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC6A55329DB14F9000C84F9 /* PopUpView.swift */; };
 		DFD12FB529D1D67300BA7850 /* CarameloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FB429D1D67300BA7850 /* CarameloApp.swift */; };
 		DFD12FB729D1D67300BA7850 /* FinderPuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FB629D1D67300BA7850 /* FinderPuzzleView.swift */; };
 		DFD12FB929D1D67300BA7850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD12FB829D1D67300BA7850 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AEC6A55329DB14F9000C84F9 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		DFD12FB129D1D67300BA7850 /* Where's Caramelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Where's Caramelo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD12FB429D1D67300BA7850 /* CarameloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarameloApp.swift; sourceTree = "<group>"; };
 		DFD12FB629D1D67300BA7850 /* FinderPuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderPuzzleView.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				DFD12FE329D1DA4400BA7850 /* FinderPuzzleCity.swift */,
+				AEC6A55329DB14F9000C84F9 /* PopUpView.swift */,
 			);
 			path = "UI Components";
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				DFD12FBE29D1D67300BA7850 /* Persistence.swift in Sources */,
 				DFD12FE429D1DA4400BA7850 /* FinderPuzzleCity.swift in Sources */,
 				DFD12FED29D2125E00BA7850 /* CarameloApp.xcdatamodeld in Sources */,
+				AEC6A55429DB14F9000C84F9 /* PopUpView.swift in Sources */,
 				DFD12FB729D1D67300BA7850 /* FinderPuzzleView.swift in Sources */,
 				DFD12FB529D1D67300BA7850 /* CarameloApp.swift in Sources */,
 			);
@@ -475,7 +479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Where's Caramelo/Resources\"";
-				DEVELOPMENT_TEAM = 3PC4MSN8T7;
+				DEVELOPMENT_TEAM = XPQY9CM5FF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Where-s-Caramelo-Info.plist";
