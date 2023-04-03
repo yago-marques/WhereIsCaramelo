@@ -13,7 +13,7 @@ struct CarameloApp: App {
 
     var body: some Scene {
         WindowGroup {
-            FinderPuzzleView()
+            OnBoardingView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
