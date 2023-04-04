@@ -16,7 +16,7 @@ struct FinderPuzzleCityViewModel: Identifiable {
 }
 
 struct FinderPuzzleView: View {
-    @State var allFounded = false
+    @State var allFounded = true
     @State var popupError = false
     @State private var stages: [FinderPuzzleCityViewModel] = [
         .init(
@@ -45,7 +45,6 @@ struct FinderPuzzleView: View {
         NavigationView {
             VStack {
                 Image("FinderPuzzleLogo")
-
                 List($stages, id: \.id) { item in
                     FinderPuzzleCity(viewModel: item)
                 }
