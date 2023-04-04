@@ -22,31 +22,31 @@ enum FPCityBackgrounds: String {
 enum FPCityMaps {
     static func fortaleza() -> [String] {
         [
-            "fortalezaMapStage1",
-            "fortalezaMapStage2",
-            "fortalezaMapStage3",
-            "fortalezaMapStage4",
-            "fortalezaMapStage5",
-            "fortalezaMapStage6"
+            "MapGameScene",
+            "MapGameScene",
+            "MapGameScene",
+            "MapGameScene",
+            "MapGameScene",
+            "MapGameScene"
         ]
     }
 
     static func brasilia() -> [String] {
         [
-            "brasiliaMapStage1",
-            "brasiliaMapStage2",
-            "brasiliaMapStage3",
-            "brasiliaMapStage4",
-            "brasiliaMapStage5",
+            "MapGameScene",
+            "MapGameScene",
+            "MapGameScene",
+            "MapGameScene",
+            "MapGameScene",
         ]
     }
 
     static func rioDeJaneiro() -> [String] {
         [
-            "rioDeJaneiroMapStage1",
-            "rioDeJaneiroMapStage2",
-            "rioDeJaneiroMapStage3",
-            "rioDeJaneiroMapStage4",
+            "MapGameScene",
+            "MapGameScene",
+            "MapGameScene",
+            "MapGameScene",
         ]
     }
 }

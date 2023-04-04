@@ -13,7 +13,7 @@ struct CarameloApp: App {
 
     var body: some Scene {
         WindowGroup {
-            StageMapExplorerView()
+            CitiesListComposer.make()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

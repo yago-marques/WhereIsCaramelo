@@ -19,7 +19,7 @@ struct FPCityPresentationModel: Identifiable {
     let imageBackground: String
     let allStages: Int
     let completedStages: Int
-    let currentMap: String?
+    var currentMap: String?
     let isDone: Bool
     var status: FPCityStatus
 }

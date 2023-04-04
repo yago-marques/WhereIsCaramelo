@@ -29,8 +29,10 @@ final class FPDatabaseService {
 
         if let currentStageIndex = currentCity.stages.firstIndex(where: {!$0.isDone}) {
             cityToUpdate.stages[currentStageIndex].isDone = true
-        } else {
-            cityToUpdate.isDone = true
+            let completedStages = cityToUpdate.stages.filter {$0.isDone}
+            if completedStages.count == cityToUpdate.stages.count {
+                cityToUpdate.isDone = true
+            }
         }
 
         return cityToUpdate

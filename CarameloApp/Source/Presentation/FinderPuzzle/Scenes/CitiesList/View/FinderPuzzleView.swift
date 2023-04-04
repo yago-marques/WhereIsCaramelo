@@ -16,13 +16,23 @@ struct FinderPuzzleView: View {
                 Image("FinderPuzzleLogo")
 
                 List($viewModel.cities, id: \.id) { item in
-                    FinderPuzzleCity(presentatioModel: item)
+                    if let map = item.currentMap.wrappedValue, item.wrappedValue.status == .unlocked {
+                        NavigationLink(destination: StageMapExplorerComposer.make(
+                            cityName: item.wrappedValue.name,
+                            mapName: map
+                        )) {
+                            FinderPuzzleCity(presentatioModel: item)
+                        }
+                    } else {
+                        FinderPuzzleCity(presentatioModel: item)
+                    }
+
                 }
                 .listStyle(.plain)
             }
             .padding(
                 EdgeInsets(
-                    top: 50,
+                    top: 35,
                     leading: 0,
                     bottom: 0,
                     trailing: 0
