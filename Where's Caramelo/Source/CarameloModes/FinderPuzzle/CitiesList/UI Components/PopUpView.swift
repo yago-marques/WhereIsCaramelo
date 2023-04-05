@@ -38,9 +38,11 @@ struct popupView: View {
         VStack {
             VStack(alignment: .center) {
                 Text("SCHLOPSCHLOPSCH!")
+                    .foregroundColor(.black)
                     .font(.system(size: 23, weight: .bold, design: .rounded))
                     .padding(.top, 60)
                 Text("You Found Me!")
+                    .foregroundColor(.black)
                     .padding(.top, -10)
                     .font(.system(size: 23, weight: .light, design: .rounded))
             }
@@ -80,11 +82,13 @@ struct popupView: View {
             VStack(alignment: .center) {
                 Text("SCHLOPSCHLOPSCH!")
                     .font(.system(size: 23, weight: .bold, design: .rounded))
+                    .foregroundColor(.black)
                     .padding(.top, 60)
                 Text("Try again Caramelito.")
+                    .foregroundColor(.black)
                     .padding(.top, -10)
                     .font(.system(size: 23, weight: .light, design: .rounded))
-            }.foregroundColor(.white)
+            }
             Button(action: {
                 withAnimation {
                     popupError = false
@@ -93,7 +97,7 @@ struct popupView: View {
                 Text("Next Level")
                     .frame(width: 300, height: 50)
                     .background(Color(.white))
-                    .foregroundColor(Color(red: 214/255, green: 154/255, blue: 58/255))
+                    .foregroundColor(Color(hue: 1.0, saturation: 0.165, brightness: 0.901))
                     .font(.system(size: 30, weight: .bold, design: .rounded))
             }.offset(y: 8)
         }
@@ -101,7 +105,6 @@ struct popupView: View {
         .background {
             RoundedRectangle(cornerRadius: 25)
                 .fill(Color(.red))
-                .foregroundColor(.white)
         }
         .clipShape(RoundedRectangle(cornerRadius: 15))
         .frame(width: 300)
