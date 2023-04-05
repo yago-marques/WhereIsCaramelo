@@ -15,7 +15,7 @@ struct FinderPuzzleCity: View {
     }
 
     private var blurRatio: CGFloat {
-        viewModel.isActive ? 0 : 2
+        viewModel.isActive ? 0 : 1.5
     }
 
     var body: some View {
@@ -26,7 +26,6 @@ struct FinderPuzzleCity: View {
                 .frame(height: deviceWidth(multiplier: 0.4))
                 .cornerRadius(15)
                 .blur(radius: blurRatio)
-
             VStack {
                 HStack {
                     Spacer()
@@ -52,6 +51,8 @@ struct FinderPuzzleCity: View {
 
             Image(centerImage)
         }
+        .padding(EdgeInsets(top: 7, leading: 0, bottom: 7, trailing: 0))
+        .shadow(color: .secondary.opacity(0.2), radius: 5, x: 0, y: 10)
         .listRowSeparator(.hidden)
 
     }

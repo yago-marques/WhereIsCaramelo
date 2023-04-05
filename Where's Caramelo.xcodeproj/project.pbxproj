@@ -52,6 +52,7 @@
 		DFD12FD629D1D67300BA7850 /* Where_s_CarameloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Where_s_CarameloUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DFD12FE329D1DA4400BA7850 /* FinderPuzzleCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderPuzzleCity.swift; sourceTree = "<group>"; };
 		DFD12FEC29D2125E00BA7850 /* CarameloApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarameloApp.xcdatamodel; sourceTree = "<group>"; };
+		DFD12FEF29D241F500BA7850 /* Where-s-Caramelo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Where-s-Caramelo-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +86,7 @@
 				0847DA9129D466C60050D70C /* OnBoardingView.swift */,
 				0847DA8F29D464A40050D70C /* Item.swift */,
 				DFD12FB329D1D67300BA7850 /* Where's Caramelo */,
+				DFD12FEF29D241F500BA7850 /* Where-s-Caramelo-Info.plist */,
 				DFD12FC929D1D67300BA7850 /* Where's CarameloTests */,
 				DFD12FD329D1D67300BA7850 /* Where's CarameloUITests */,
 				DFD12FB229D1D67300BA7850 /* Products */,
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				DFD12FE329D1DA4400BA7850 /* FinderPuzzleCity.swift */,
+				AEC7D31E29DB17E1005CFE74 /* PopUpView.swift */,
 			);
 			path = "UI Components";
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				DFD12FE429D1DA4400BA7850 /* FinderPuzzleCity.swift in Sources */,
 				0847DA9229D466C60050D70C /* OnBoardingView.swift in Sources */,
 				DFD12FED29D2125E00BA7850 /* CarameloApp.xcdatamodeld in Sources */,
+				AEC7D31F29DB17E1005CFE74 /* PopUpView.swift in Sources */,
 				DFD12FB729D1D67300BA7850 /* FinderPuzzleView.swift in Sources */,
 				0847DA9029D464A40050D70C /* Item.swift in Sources */,
 				DFD12FB529D1D67300BA7850 /* CarameloApp.swift in Sources */,
@@ -481,10 +485,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Where's Caramelo/Resources\"";
-				DEVELOPMENT_TEAM = 3PC4MSN8T7;
+				DEVELOPMENT_TEAM = XPQY9CM5FF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Where-s-Caramelo-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -510,10 +514,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Where's Caramelo/Resources\"";
-				DEVELOPMENT_TEAM = 3PC4MSN8T7;
+				DEVELOPMENT_TEAM = XPQY9CM5FF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Where-s-Caramelo-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
