@@ -38,11 +38,11 @@ struct popupView: View {
         VStack {
             VStack(alignment: .center) {
                 Text("SCHLOPSCHLOPSCH!")
-                    .foregroundColor(.black)
+                    .foregroundColor(Color("popupFontColor"))
                     .font(.system(size: 23, weight: .bold, design: .rounded))
                     .padding(.top, 60)
                 Text("You Found Me!")
-                    .foregroundColor(.black)
+                    .foregroundColor(Color("popupFontColor"))
                     .padding(.top, -10)
                     .font(.system(size: 23, weight: .light, design: .rounded))
             }
@@ -61,8 +61,8 @@ struct popupView: View {
         .frame(width: 270, height: 200)
         .background {
             RoundedRectangle(cornerRadius: 25)
-                .fill(Color(.white))
-                .foregroundColor(.black)
+                .fill(Color("popupColor"))
+                .foregroundColor(.white)
         }
         .clipShape(RoundedRectangle(cornerRadius: 15))
         .frame(width: 300)
