@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AEC7D31F29DB17E1005CFE74 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7D31E29DB17E1005CFE74 /* PopUpView.swift */; };
+		0847DA9029D464A40050D70C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0847DA8F29D464A40050D70C /* Item.swift */; };
+		0847DA9229D466C60050D70C /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0847DA9129D466C60050D70C /* OnBoardingView.swift */; };
 		DFD12FB529D1D67300BA7850 /* CarameloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FB429D1D67300BA7850 /* CarameloApp.swift */; };
 		DFD12FB729D1D67300BA7850 /* FinderPuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FB629D1D67300BA7850 /* FinderPuzzleView.swift */; };
 		DFD12FB929D1D67300BA7850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD12FB829D1D67300BA7850 /* Assets.xcassets */; };
@@ -37,7 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AEC7D31E29DB17E1005CFE74 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		0847DA8F29D464A40050D70C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0847DA9129D466C60050D70C /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		DFD12FB129D1D67300BA7850 /* Where's Caramelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Where's Caramelo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD12FB429D1D67300BA7850 /* CarameloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarameloApp.swift; sourceTree = "<group>"; };
 		DFD12FB629D1D67300BA7850 /* FinderPuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderPuzzleView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,8 @@
 		DFD12FA829D1D67200BA7850 = {
 			isa = PBXGroup;
 			children = (
+				0847DA9129D466C60050D70C /* OnBoardingView.swift */,
+				0847DA8F29D464A40050D70C /* Item.swift */,
 				DFD12FB329D1D67300BA7850 /* Where's Caramelo */,
 				DFD12FEF29D241F500BA7850 /* Where-s-Caramelo-Info.plist */,
 				DFD12FC929D1D67300BA7850 /* Where's CarameloTests */,
@@ -317,9 +321,11 @@
 			files = (
 				DFD12FBE29D1D67300BA7850 /* Persistence.swift in Sources */,
 				DFD12FE429D1DA4400BA7850 /* FinderPuzzleCity.swift in Sources */,
+				0847DA9229D466C60050D70C /* OnBoardingView.swift in Sources */,
 				DFD12FED29D2125E00BA7850 /* CarameloApp.xcdatamodeld in Sources */,
 				AEC7D31F29DB17E1005CFE74 /* PopUpView.swift in Sources */,
 				DFD12FB729D1D67300BA7850 /* FinderPuzzleView.swift in Sources */,
+				0847DA9029D464A40050D70C /* Item.swift in Sources */,
 				DFD12FB529D1D67300BA7850 /* CarameloApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
