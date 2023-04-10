@@ -16,10 +16,10 @@ final class MapGameScene: SKScene {
     var temp: CGFloat = 0
     var scale: CGFloat = 0 {
         didSet {
-            if camera!.xScale + scale < 3 {
+            if camera!.xScale + scale < 6 {
                 if scale <= temp {
                     camera?.setScale(camera!.xScale + (camera!.xScale * 0.025))
-                    configureCameraFinch()
+//                    configureCameraFinch()
                 } else {
                     camera?.setScale(camera!.xScale - (camera!.xScale * 0.025))
                 }
@@ -30,13 +30,13 @@ final class MapGameScene: SKScene {
             temp = scale
         }
     }
-    private var borderMap: SKTileMapNode?
-    private var sceneMap: SKTileMapNode?
+    private var peopleMap: SKTileMapNode?
+    private var dogMap: SKTileMapNode?
 
     override func sceneDidLoad() {
         player = childNode(withName: "Player") as? FinderPuzzlePlayer
-        borderMap = childNode(withName: "floorMap") as? SKTileMapNode
-        sceneMap = childNode(withName: "waterMap") as? SKTileMapNode
+        peopleMap = childNode(withName: "peopleMap") as? SKTileMapNode
+        dogMap = childNode(withName: "dogArea") as? SKTileMapNode
 
         setupCamera()
     }
@@ -44,8 +44,8 @@ final class MapGameScene: SKScene {
     override func didMove(to view: SKView) {
         super.didMove(to: view)
 
-        sceneMap?.setupEdgeLoop()
-        borderMap?.setupMapPhysics()
+        peopleMap?.setupEdgeLoop()
+        dogMap?.setupMapPhysics()
     }
 
     func stopCam() {
@@ -72,20 +72,7 @@ final class MapGameScene: SKScene {
         let distance = SKRange(constantValue: 0)
         let playerConstraint = SKConstraint.distance(distance, to: player)
 
-        let xRange = SKRange(
-            lowerLimit: (-(size.width))*widthMultiplier,
-            upperLimit: (size.width)*widthMultiplier
-        )
-
-        let yRange = SKRange(
-            lowerLimit: (-(size.height) + (size.height*heightMultiplier)),
-            upperLimit: (size.height - (size.height*heightMultiplier))
-        )
-
-        let positionX = SKConstraint.positionX(xRange)
-        let positionY = SKConstraint.positionY(yRange)
-
-        camera?.constraints = [playerConstraint, positionX, positionY]
+        camera?.constraints = [playerConstraint]
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

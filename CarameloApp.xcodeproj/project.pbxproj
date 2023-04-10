@@ -1,0 +1,1013 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF29EEB929D4A27A00BD9F81 /* FPRemoteCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29EEB829D4A27A00BD9F81 /* FPRemoteCity.swift */; };
+		DF29EEBB29D4A2C000BD9F81 /* FPRemoteStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29EEBA29D4A2C000BD9F81 /* FPRemoteStage.swift */; };
+		DF29EEBE29D4A34E00BD9F81 /* FPDatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29EEBD29D4A34E00BD9F81 /* FPDatabaseService.swift */; };
+		DF29EEC129D4A49700BD9F81 /* CoredataPersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29EEC029D4A49700BD9F81 /* CoredataPersistanceManager.swift */; };
+		DF29EEC429D4A5D500BD9F81 /* FinderPuzzleDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29EEC329D4A5D500BD9F81 /* FinderPuzzleDatabase.swift */; };
+		DF5729B429D70CD2003F253C /* MapGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF5729B329D70CD2003F253C /* MapGameScene.sks */; };
+		DF5729B729D71757003F253C /* FPMapTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF5729B529D71757003F253C /* FPMapTileSet.sks */; };
+		DF5729B829D71757003F253C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5729B629D71757003F253C /* Assets.xcassets */; };
+		DF5729BA29D7A514003F253C /* FPMapContainerLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5729B929D7A514003F253C /* FPMapContainerLoader.swift */; };
+		DF5729C029DB0C5F003F253C /* StageMapExplorerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5729BF29DB0C5F003F253C /* StageMapExplorerViewModel.swift */; };
+		DF5729C429DB0E60003F253C /* StageMapExplorerComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5729C329DB0E60003F253C /* StageMapExplorerComposer.swift */; };
+		DF5729C729DB1B28003F253C /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5729C629DB1B28003F253C /* PopupView.swift */; };
+		DF7986C729D5CA96003A559C /* CitiesListComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7986C629D5CA96003A559C /* CitiesListComposer.swift */; };
+		DF7986CE29D61849003A559C /* StageMapExplorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7986CD29D61849003A559C /* StageMapExplorerView.swift */; };
+		DF7986D029D61896003A559C /* MapGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7986CF29D61896003A559C /* MapGameScene.swift */; };
+		DF7986D229D61930003A559C /* FinderPuzzlePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7986D129D61930003A559C /* FinderPuzzlePlayer.swift */; };
+		DF7986D529D619D1003A559C /* SKTileMapNode+Physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7986D429D619D1003A559C /* SKTileMapNode+Physics.swift */; };
+		DFB0B10129D5A9DA001B544A /* FPStageBusinessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B10029D5A9DA001B544A /* FPStageBusinessModel.swift */; };
+		DFB0B10429D5AA71001B544A /* FPCityMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B10329D5AA71001B544A /* FPCityMapper.swift */; };
+		DFB0B10629D5AC0C001B544A /* FPStageMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B10529D5AC0C001B544A /* FPStageMapper.swift */; };
+		DFB0B10A29D5AE08001B544A /* FPCityPresentationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B10929D5AE08001B544A /* FPCityPresentationModel.swift */; };
+		DFB0B10C29D5AE29001B544A /* FinderPuzzleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B10B29D5AE29001B544A /* FinderPuzzleViewModel.swift */; };
+		DFB0B10F29D5B73B001B544A /* FPGameCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B10E29D5B73B001B544A /* FPGameCities.swift */; };
+		DFB0B11129D5BAD3001B544A /* FPCitiesConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B11029D5BAD3001B544A /* FPCitiesConfig.swift */; };
+		DFB0B11329D5C660001B544A /* VerifyFirstUserAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B11229D5C660001B544A /* VerifyFirstUserAccess.swift */; };
+		DFB0B11529D5C6D4001B544A /* RegisterFirstUserAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B11429D5C6D4001B544A /* RegisterFirstUserAccess.swift */; };
+		DFB0B11729D5C731001B544A /* UserAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0B11629D5C731001B544A /* UserAccessManager.swift */; };
+		DFD12FB529D1D67300BA7850 /* CarameloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FB429D1D67300BA7850 /* CarameloApp.swift */; };
+		DFD12FB729D1D67300BA7850 /* FinderPuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FB629D1D67300BA7850 /* FinderPuzzleView.swift */; };
+		DFD12FB929D1D67300BA7850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD12FB829D1D67300BA7850 /* Assets.xcassets */; };
+		DFD12FBE29D1D67300BA7850 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FBD29D1D67300BA7850 /* Persistence.swift */; };
+		DFD12FCB29D1D67300BA7850 /* CarameloAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FCA29D1D67300BA7850 /* CarameloAppTests.swift */; };
+		DFD12FD529D1D67300BA7850 /* CarameloAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FD429D1D67300BA7850 /* CarameloAppUITests.swift */; };
+		DFD12FD729D1D67300BA7850 /* CarameloAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FD629D1D67300BA7850 /* CarameloAppUITestsLaunchTests.swift */; };
+		DFD12FE429D1DA4400BA7850 /* FinderPuzzleCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FE329D1DA4400BA7850 /* FinderPuzzleCity.swift */; };
+		DFD12FED29D2125E00BA7850 /* CarameloApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFD12FEB29D2125E00BA7850 /* CarameloApp.xcdatamodeld */; };
+		DFEA14B629D4B37B003401C1 /* FPCityBusinessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA14B529D4B37B003401C1 /* FPCityBusinessModel.swift */; };
+		DFEA14BA29D4C224003401C1 /* LoadCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA14B929D4C224003401C1 /* LoadCities.swift */; };
+		DFEA14BC29D4C29C003401C1 /* UpdateCityStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA14BB29D4C29C003401C1 /* UpdateCityStage.swift */; };
+		DFEA14BE29D4C2D9003401C1 /* CreateCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA14BD29D4C2D9003401C1 /* CreateCity.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFD12FC729D1D67300BA7850 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD12FA929D1D67200BA7850 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD12FB029D1D67300BA7850;
+			remoteInfo = "Where's Caramelo";
+		};
+		DFD12FD129D1D67300BA7850 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD12FA929D1D67200BA7850 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD12FB029D1D67300BA7850;
+			remoteInfo = "Where's Caramelo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF29EEB829D4A27A00BD9F81 /* FPRemoteCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPRemoteCity.swift; sourceTree = "<group>"; };
+		DF29EEBA29D4A2C000BD9F81 /* FPRemoteStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPRemoteStage.swift; sourceTree = "<group>"; };
+		DF29EEBD29D4A34E00BD9F81 /* FPDatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPDatabaseService.swift; sourceTree = "<group>"; };
+		DF29EEC029D4A49700BD9F81 /* CoredataPersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataPersistanceManager.swift; sourceTree = "<group>"; };
+		DF29EEC329D4A5D500BD9F81 /* FinderPuzzleDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderPuzzleDatabase.swift; sourceTree = "<group>"; };
+		DF5729B329D70CD2003F253C /* MapGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MapGameScene.sks; sourceTree = "<group>"; };
+		DF5729B529D71757003F253C /* FPMapTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FPMapTileSet.sks; sourceTree = "<group>"; };
+		DF5729B629D71757003F253C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF5729B929D7A514003F253C /* FPMapContainerLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPMapContainerLoader.swift; sourceTree = "<group>"; };
+		DF5729BF29DB0C5F003F253C /* StageMapExplorerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageMapExplorerViewModel.swift; sourceTree = "<group>"; };
+		DF5729C329DB0E60003F253C /* StageMapExplorerComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageMapExplorerComposer.swift; sourceTree = "<group>"; };
+		DF5729C629DB1B28003F253C /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		DF7986C629D5CA96003A559C /* CitiesListComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesListComposer.swift; sourceTree = "<group>"; };
+		DF7986CD29D61849003A559C /* StageMapExplorerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageMapExplorerView.swift; sourceTree = "<group>"; };
+		DF7986CF29D61896003A559C /* MapGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapGameScene.swift; sourceTree = "<group>"; };
+		DF7986D129D61930003A559C /* FinderPuzzlePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderPuzzlePlayer.swift; sourceTree = "<group>"; };
+		DF7986D429D619D1003A559C /* SKTileMapNode+Physics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKTileMapNode+Physics.swift"; sourceTree = "<group>"; };
+		DFB0B10029D5A9DA001B544A /* FPStageBusinessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPStageBusinessModel.swift; sourceTree = "<group>"; };
+		DFB0B10329D5AA71001B544A /* FPCityMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPCityMapper.swift; sourceTree = "<group>"; };
+		DFB0B10529D5AC0C001B544A /* FPStageMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPStageMapper.swift; sourceTree = "<group>"; };
+		DFB0B10929D5AE08001B544A /* FPCityPresentationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPCityPresentationModel.swift; sourceTree = "<group>"; };
+		DFB0B10B29D5AE29001B544A /* FinderPuzzleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderPuzzleViewModel.swift; sourceTree = "<group>"; };
+		DFB0B10E29D5B73B001B544A /* FPGameCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPGameCities.swift; sourceTree = "<group>"; };
+		DFB0B11029D5BAD3001B544A /* FPCitiesConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPCitiesConfig.swift; sourceTree = "<group>"; };
+		DFB0B11229D5C660001B544A /* VerifyFirstUserAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyFirstUserAccess.swift; sourceTree = "<group>"; };
+		DFB0B11429D5C6D4001B544A /* RegisterFirstUserAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFirstUserAccess.swift; sourceTree = "<group>"; };
+		DFB0B11629D5C731001B544A /* UserAccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccessManager.swift; sourceTree = "<group>"; };
+		DFD12FB129D1D67300BA7850 /* CarameloApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarameloApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD12FB429D1D67300BA7850 /* CarameloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarameloApp.swift; sourceTree = "<group>"; };
+		DFD12FB629D1D67300BA7850 /* FinderPuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderPuzzleView.swift; sourceTree = "<group>"; };
+		DFD12FB829D1D67300BA7850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFD12FBD29D1D67300BA7850 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DFD12FC629D1D67300BA7850 /* CarameloAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarameloAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD12FCA29D1D67300BA7850 /* CarameloAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarameloAppTests.swift; sourceTree = "<group>"; };
+		DFD12FD029D1D67300BA7850 /* CarameloAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarameloAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD12FD429D1D67300BA7850 /* CarameloAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarameloAppUITests.swift; sourceTree = "<group>"; };
+		DFD12FD629D1D67300BA7850 /* CarameloAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarameloAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DFD12FE329D1DA4400BA7850 /* FinderPuzzleCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderPuzzleCity.swift; sourceTree = "<group>"; };
+		DFD12FEC29D2125E00BA7850 /* CarameloApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarameloApp.xcdatamodel; sourceTree = "<group>"; };
+		DFD12FEF29D241F500BA7850 /* CarameloAppInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CarameloAppInfo.plist; sourceTree = SOURCE_ROOT; };
+		DFEA14B529D4B37B003401C1 /* FPCityBusinessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPCityBusinessModel.swift; sourceTree = "<group>"; };
+		DFEA14B929D4C224003401C1 /* LoadCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadCities.swift; sourceTree = "<group>"; };
+		DFEA14BB29D4C29C003401C1 /* UpdateCityStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCityStage.swift; sourceTree = "<group>"; };
+		DFEA14BD29D4C2D9003401C1 /* CreateCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCity.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFD12FAE29D1D67300BA7850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD12FC329D1D67300BA7850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD12FCD29D1D67300BA7850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF29EEB329D48F0C00BD9F81 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FEE29D213DB00BA7850 /* CitiesList */,
+				DF7986C829D617A3003A559C /* StageMapExplorer */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		DF29EEB529D48F3800BD9F81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FE829D2118F00BA7850 /* UI Components */,
+				DFD12FB629D1D67300BA7850 /* FinderPuzzleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF29EEB629D4A20800BD9F81 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				DF29EEB729D4A21600BD9F81 /* DomainModels */,
+				DF29EEC229D4A5AF00BD9F81 /* DomainContracts */,
+				DF29EEBC29D4A31400BD9F81 /* DomainServices */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		DF29EEB729D4A21600BD9F81 /* DomainModels */ = {
+			isa = PBXGroup;
+			children = (
+				DF29EEB829D4A27A00BD9F81 /* FPRemoteCity.swift */,
+				DF29EEBA29D4A2C000BD9F81 /* FPRemoteStage.swift */,
+			);
+			path = DomainModels;
+			sourceTree = "<group>";
+		};
+		DF29EEBC29D4A31400BD9F81 /* DomainServices */ = {
+			isa = PBXGroup;
+			children = (
+				DFEA14BF29D4C436003401C1 /* Persistance */,
+			);
+			path = DomainServices;
+			sourceTree = "<group>";
+		};
+		DF29EEBF29D4A46A00BD9F81 /* Coredata */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FEB29D2125E00BA7850 /* CarameloApp.xcdatamodeld */,
+				DF29EEC029D4A49700BD9F81 /* CoredataPersistanceManager.swift */,
+			);
+			path = Coredata;
+			sourceTree = "<group>";
+		};
+		DF29EEC229D4A5AF00BD9F81 /* DomainContracts */ = {
+			isa = PBXGroup;
+			children = (
+				DF29EEC329D4A5D500BD9F81 /* FinderPuzzleDatabase.swift */,
+				DFB0B11629D5C731001B544A /* UserAccessManager.swift */,
+			);
+			path = DomainContracts;
+			sourceTree = "<group>";
+		};
+		DF29EEC529D4A81E00BD9F81 /* DatabaseWorker */ = {
+			isa = PBXGroup;
+			children = (
+				DF29EEBF29D4A46A00BD9F81 /* Coredata */,
+			);
+			path = DatabaseWorker;
+			sourceTree = "<group>";
+		};
+		DF5729BE29DB0C3F003F253C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF5729BF29DB0C5F003F253C /* StageMapExplorerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DF5729C129DB0DF1003F253C /* FPSpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				DF7986D329D619B9003A559C /* Utils */,
+				DF7986DA29D61CB7003A559C /* GameController */,
+				DF7986DD29D61D03003A559C /* MapTiles */,
+				DF7986DC29D61CD6003A559C /* MapScenes */,
+			);
+			path = FPSpriteKit;
+			sourceTree = "<group>";
+		};
+		DF5729C229DB0E3F003F253C /* Composer */ = {
+			isa = PBXGroup;
+			children = (
+				DF5729C329DB0E60003F253C /* StageMapExplorerComposer.swift */,
+			);
+			path = Composer;
+			sourceTree = "<group>";
+		};
+		DF5729C529DB1B0D003F253C /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				DF5729C629DB1B28003F253C /* PopupView.swift */,
+			);
+			path = "UI Components";
+			sourceTree = "<group>";
+		};
+		DF7986C529D5CA83003A559C /* Composer */ = {
+			isa = PBXGroup;
+			children = (
+				DF7986C629D5CA96003A559C /* CitiesListComposer.swift */,
+			);
+			path = Composer;
+			sourceTree = "<group>";
+		};
+		DF7986C829D617A3003A559C /* StageMapExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				DF5729C229DB0E3F003F253C /* Composer */,
+				DF5729C129DB0DF1003F253C /* FPSpriteKit */,
+				DF7986D829D61C41003A559C /* Model */,
+				DF7986DB29D61CC5003A559C /* View */,
+				DF5729BE29DB0C3F003F253C /* ViewModel */,
+			);
+			path = StageMapExplorer;
+			sourceTree = "<group>";
+		};
+		DF7986D329D619B9003A559C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DF7986D429D619D1003A559C /* SKTileMapNode+Physics.swift */,
+				DF5729B929D7A514003F253C /* FPMapContainerLoader.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DF7986D829D61C41003A559C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF7986D129D61930003A559C /* FinderPuzzlePlayer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF7986DA29D61CB7003A559C /* GameController */ = {
+			isa = PBXGroup;
+			children = (
+				DF7986CF29D61896003A559C /* MapGameScene.swift */,
+			);
+			path = GameController;
+			sourceTree = "<group>";
+		};
+		DF7986DB29D61CC5003A559C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF5729C529DB1B0D003F253C /* UI Components */,
+				DF7986CD29D61849003A559C /* StageMapExplorerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF7986DC29D61CD6003A559C /* MapScenes */ = {
+			isa = PBXGroup;
+			children = (
+				DF5729B329D70CD2003F253C /* MapGameScene.sks */,
+			);
+			path = MapScenes;
+			sourceTree = "<group>";
+		};
+		DF7986DD29D61D03003A559C /* MapTiles */ = {
+			isa = PBXGroup;
+			children = (
+				DF5729B529D71757003F253C /* FPMapTileSet.sks */,
+				DF5729B629D71757003F253C /* Assets.xcassets */,
+			);
+			path = MapTiles;
+			sourceTree = "<group>";
+		};
+		DFB0B0FF29D5A936001B544A /* BusinessModels */ = {
+			isa = PBXGroup;
+			children = (
+				DFEA14B529D4B37B003401C1 /* FPCityBusinessModel.swift */,
+				DFB0B10029D5A9DA001B544A /* FPStageBusinessModel.swift */,
+			);
+			path = BusinessModels;
+			sourceTree = "<group>";
+		};
+		DFB0B10229D5AA5F001B544A /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0B10329D5AA71001B544A /* FPCityMapper.swift */,
+				DFB0B10529D5AC0C001B544A /* FPStageMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		DFB0B10729D5ADC3001B544A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0B10B29D5AE29001B544A /* FinderPuzzleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DFB0B10829D5ADD0001B544A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0B10929D5AE08001B544A /* FPCityPresentationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFB0B10D29D5B71B001B544A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0B10E29D5B73B001B544A /* FPGameCities.swift */,
+				DFB0B11029D5BAD3001B544A /* FPCitiesConfig.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		DFD12FA829D1D67200BA7850 = {
+			isa = PBXGroup;
+			children = (
+				DFD12FB329D1D67300BA7850 /* CarameloApp */,
+				DFD12FEF29D241F500BA7850 /* CarameloAppInfo.plist */,
+				DFD12FC929D1D67300BA7850 /* CarameloAppTests */,
+				DFD12FD329D1D67300BA7850 /* CarameloAppUITests */,
+				DFD12FB229D1D67300BA7850 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFD12FB229D1D67300BA7850 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FB129D1D67300BA7850 /* CarameloApp.app */,
+				DFD12FC629D1D67300BA7850 /* CarameloAppTests.xctest */,
+				DFD12FD029D1D67300BA7850 /* CarameloAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFD12FB329D1D67300BA7850 /* CarameloApp */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FEA29D211F400BA7850 /* Application */,
+				DFD12FE929D211E600BA7850 /* Resources */,
+				DFD12FE529D2115000BA7850 /* Source */,
+			);
+			path = CarameloApp;
+			sourceTree = "<group>";
+		};
+		DFD12FC929D1D67300BA7850 /* CarameloAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FCA29D1D67300BA7850 /* CarameloAppTests.swift */,
+			);
+			path = CarameloAppTests;
+			sourceTree = "<group>";
+		};
+		DFD12FD329D1D67300BA7850 /* CarameloAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FD429D1D67300BA7850 /* CarameloAppUITests.swift */,
+				DFD12FD629D1D67300BA7850 /* CarameloAppUITestsLaunchTests.swift */,
+			);
+			path = CarameloAppUITests;
+			sourceTree = "<group>";
+		};
+		DFD12FE529D2115000BA7850 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0B10229D5AA5F001B544A /* Mapper */,
+				DF29EEB629D4A20800BD9F81 /* Domain */,
+				DFEA14B729D4C1DB003401C1 /* Application */,
+				DFD12FE629D2115E00BA7850 /* Presentation */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DFD12FE629D2115E00BA7850 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FE729D2116600BA7850 /* FinderPuzzle */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		DFD12FE729D2116600BA7850 /* FinderPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				DF29EEB329D48F0C00BD9F81 /* Scenes */,
+			);
+			path = FinderPuzzle;
+			sourceTree = "<group>";
+		};
+		DFD12FE829D2118F00BA7850 /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FE329D1DA4400BA7850 /* FinderPuzzleCity.swift */,
+			);
+			path = "UI Components";
+			sourceTree = "<group>";
+		};
+		DFD12FE929D211E600BA7850 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FB829D1D67300BA7850 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DFD12FEA29D211F400BA7850 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12FB429D1D67300BA7850 /* CarameloApp.swift */,
+				DFD12FBD29D1D67300BA7850 /* Persistence.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DFD12FEE29D213DB00BA7850 /* CitiesList */ = {
+			isa = PBXGroup;
+			children = (
+				DF7986C529D5CA83003A559C /* Composer */,
+				DFB0B10D29D5B71B001B544A /* Constants */,
+				DFB0B10829D5ADD0001B544A /* Model */,
+				DF29EEB529D48F3800BD9F81 /* View */,
+				DFB0B10729D5ADC3001B544A /* ViewModel */,
+			);
+			path = CitiesList;
+			sourceTree = "<group>";
+		};
+		DFEA14B729D4C1DB003401C1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DFEA14B829D4C1EF003401C1 /* FinderPuzzleUseCases */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DFEA14B829D4C1EF003401C1 /* FinderPuzzleUseCases */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0B0FF29D5A936001B544A /* BusinessModels */,
+				DFEA14B929D4C224003401C1 /* LoadCities.swift */,
+				DFEA14BB29D4C29C003401C1 /* UpdateCityStage.swift */,
+				DFEA14BD29D4C2D9003401C1 /* CreateCity.swift */,
+				DFB0B11229D5C660001B544A /* VerifyFirstUserAccess.swift */,
+				DFB0B11429D5C6D4001B544A /* RegisterFirstUserAccess.swift */,
+			);
+			path = FinderPuzzleUseCases;
+			sourceTree = "<group>";
+		};
+		DFEA14BF29D4C436003401C1 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				DF29EEC529D4A81E00BD9F81 /* DatabaseWorker */,
+				DF29EEBD29D4A34E00BD9F81 /* FPDatabaseService.swift */,
+			);
+			path = Persistance;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFD12FB029D1D67300BA7850 /* CarameloApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD12FDA29D1D67300BA7850 /* Build configuration list for PBXNativeTarget "CarameloApp" */;
+			buildPhases = (
+				DFD12FAD29D1D67300BA7850 /* Sources */,
+				DFD12FAE29D1D67300BA7850 /* Frameworks */,
+				DFD12FAF29D1D67300BA7850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarameloApp;
+			productName = "Where's Caramelo";
+			productReference = DFD12FB129D1D67300BA7850 /* CarameloApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFD12FC529D1D67300BA7850 /* CarameloAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD12FDD29D1D67300BA7850 /* Build configuration list for PBXNativeTarget "CarameloAppTests" */;
+			buildPhases = (
+				DFD12FC229D1D67300BA7850 /* Sources */,
+				DFD12FC329D1D67300BA7850 /* Frameworks */,
+				DFD12FC429D1D67300BA7850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD12FC829D1D67300BA7850 /* PBXTargetDependency */,
+			);
+			name = CarameloAppTests;
+			productName = "Where's CarameloTests";
+			productReference = DFD12FC629D1D67300BA7850 /* CarameloAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFD12FCF29D1D67300BA7850 /* CarameloAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD12FE029D1D67300BA7850 /* Build configuration list for PBXNativeTarget "CarameloAppUITests" */;
+			buildPhases = (
+				DFD12FCC29D1D67300BA7850 /* Sources */,
+				DFD12FCD29D1D67300BA7850 /* Frameworks */,
+				DFD12FCE29D1D67300BA7850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD12FD229D1D67300BA7850 /* PBXTargetDependency */,
+			);
+			name = CarameloAppUITests;
+			productName = "Where's CarameloUITests";
+			productReference = DFD12FD029D1D67300BA7850 /* CarameloAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFD12FA929D1D67200BA7850 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DFD12FB029D1D67300BA7850 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DFD12FC529D1D67300BA7850 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DFD12FB029D1D67300BA7850;
+					};
+					DFD12FCF29D1D67300BA7850 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DFD12FB029D1D67300BA7850;
+					};
+				};
+			};
+			buildConfigurationList = DFD12FAC29D1D67200BA7850 /* Build configuration list for PBXProject "CarameloApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFD12FA829D1D67200BA7850;
+			productRefGroup = DFD12FB229D1D67300BA7850 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFD12FB029D1D67300BA7850 /* CarameloApp */,
+				DFD12FC529D1D67300BA7850 /* CarameloAppTests */,
+				DFD12FCF29D1D67300BA7850 /* CarameloAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFD12FAF29D1D67300BA7850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD12FB929D1D67300BA7850 /* Assets.xcassets in Resources */,
+				DF5729B429D70CD2003F253C /* MapGameScene.sks in Resources */,
+				DF5729B829D71757003F253C /* Assets.xcassets in Resources */,
+				DF5729B729D71757003F253C /* FPMapTileSet.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD12FC429D1D67300BA7850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD12FCE29D1D67300BA7850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFD12FAD29D1D67300BA7850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5729C729DB1B28003F253C /* PopupView.swift in Sources */,
+				DFB0B10A29D5AE08001B544A /* FPCityPresentationModel.swift in Sources */,
+				DF7986CE29D61849003A559C /* StageMapExplorerView.swift in Sources */,
+				DFEA14BE29D4C2D9003401C1 /* CreateCity.swift in Sources */,
+				DFEA14B629D4B37B003401C1 /* FPCityBusinessModel.swift in Sources */,
+				DF5729C429DB0E60003F253C /* StageMapExplorerComposer.swift in Sources */,
+				DFB0B11529D5C6D4001B544A /* RegisterFirstUserAccess.swift in Sources */,
+				DF7986D029D61896003A559C /* MapGameScene.swift in Sources */,
+				DF29EEC429D4A5D500BD9F81 /* FinderPuzzleDatabase.swift in Sources */,
+				DFD12FBE29D1D67300BA7850 /* Persistence.swift in Sources */,
+				DFD12FE429D1DA4400BA7850 /* FinderPuzzleCity.swift in Sources */,
+				DFB0B10129D5A9DA001B544A /* FPStageBusinessModel.swift in Sources */,
+				DFB0B11129D5BAD3001B544A /* FPCitiesConfig.swift in Sources */,
+				DF29EEC129D4A49700BD9F81 /* CoredataPersistanceManager.swift in Sources */,
+				DFD12FED29D2125E00BA7850 /* CarameloApp.xcdatamodeld in Sources */,
+				DF29EEBB29D4A2C000BD9F81 /* FPRemoteStage.swift in Sources */,
+				DFB0B10F29D5B73B001B544A /* FPGameCities.swift in Sources */,
+				DF7986D529D619D1003A559C /* SKTileMapNode+Physics.swift in Sources */,
+				DFD12FB729D1D67300BA7850 /* FinderPuzzleView.swift in Sources */,
+				DFB0B11729D5C731001B544A /* UserAccessManager.swift in Sources */,
+				DFB0B10C29D5AE29001B544A /* FinderPuzzleViewModel.swift in Sources */,
+				DF7986D229D61930003A559C /* FinderPuzzlePlayer.swift in Sources */,
+				DFB0B10429D5AA71001B544A /* FPCityMapper.swift in Sources */,
+				DFB0B11329D5C660001B544A /* VerifyFirstUserAccess.swift in Sources */,
+				DFB0B10629D5AC0C001B544A /* FPStageMapper.swift in Sources */,
+				DF7986C729D5CA96003A559C /* CitiesListComposer.swift in Sources */,
+				DFEA14BA29D4C224003401C1 /* LoadCities.swift in Sources */,
+				DF5729BA29D7A514003F253C /* FPMapContainerLoader.swift in Sources */,
+				DF29EEB929D4A27A00BD9F81 /* FPRemoteCity.swift in Sources */,
+				DF29EEBE29D4A34E00BD9F81 /* FPDatabaseService.swift in Sources */,
+				DFEA14BC29D4C29C003401C1 /* UpdateCityStage.swift in Sources */,
+				DFD12FB529D1D67300BA7850 /* CarameloApp.swift in Sources */,
+				DF5729C029DB0C5F003F253C /* StageMapExplorerViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD12FC229D1D67300BA7850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD12FCB29D1D67300BA7850 /* CarameloAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD12FCC29D1D67300BA7850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD12FD729D1D67300BA7850 /* CarameloAppUITestsLaunchTests.swift in Sources */,
+				DFD12FD529D1D67300BA7850 /* CarameloAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFD12FC829D1D67300BA7850 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD12FB029D1D67300BA7850 /* CarameloApp */;
+			targetProxy = DFD12FC729D1D67300BA7850 /* PBXContainerItemProxy */;
+		};
+		DFD12FD229D1D67300BA7850 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD12FB029D1D67300BA7850 /* CarameloApp */;
+			targetProxy = DFD12FD129D1D67300BA7850 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DFD12FD829D1D67300BA7850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFD12FD929D1D67300BA7850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFD12FDB29D1D67300BA7850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarameloApp/Resources\"";
+				DEVELOPMENT_TEAM = 3PC4MSN8T7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarameloAppInfo.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.yago.CarameloApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Debug;
+		};
+		DFD12FDC29D1D67300BA7850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarameloApp/Resources\"";
+				DEVELOPMENT_TEAM = 3PC4MSN8T7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarameloAppInfo.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.yago.CarameloApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Release;
+		};
+		DFD12FDE29D1D67300BA7850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PC4MSN8T7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.yago.Where-s-CarameloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarameloApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarameloApp";
+			};
+			name = Debug;
+		};
+		DFD12FDF29D1D67300BA7850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PC4MSN8T7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.yago.Where-s-CarameloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarameloApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarameloApp";
+			};
+			name = Release;
+		};
+		DFD12FE129D1D67300BA7850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PC4MSN8T7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.yago.Where-s-CarameloUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Where's Caramelo";
+			};
+			name = Debug;
+		};
+		DFD12FE229D1D67300BA7850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PC4MSN8T7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.yago.Where-s-CarameloUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Where's Caramelo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFD12FAC29D1D67200BA7850 /* Build configuration list for PBXProject "CarameloApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD12FD829D1D67300BA7850 /* Debug */,
+				DFD12FD929D1D67300BA7850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD12FDA29D1D67300BA7850 /* Build configuration list for PBXNativeTarget "CarameloApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD12FDB29D1D67300BA7850 /* Debug */,
+				DFD12FDC29D1D67300BA7850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD12FDD29D1D67300BA7850 /* Build configuration list for PBXNativeTarget "CarameloAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD12FDE29D1D67300BA7850 /* Debug */,
+				DFD12FDF29D1D67300BA7850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD12FE029D1D67300BA7850 /* Build configuration list for PBXNativeTarget "CarameloAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD12FE129D1D67300BA7850 /* Debug */,
+				DFD12FE229D1D67300BA7850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DFD12FEB29D2125E00BA7850 /* CarameloApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DFD12FEC29D2125E00BA7850 /* CarameloApp.xcdatamodel */,
+			);
+			currentVersion = DFD12FEC29D2125E00BA7850 /* CarameloApp.xcdatamodel */;
+			path = CarameloApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DFD12FA929D1D67200BA7850 /* Project object */;
+}
