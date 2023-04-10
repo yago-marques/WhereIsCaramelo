@@ -25,11 +25,13 @@ struct StageMapExplorerView: View {
                     }
                 }
             }
+            .ignoresSafeArea()
 
             PopupView(allFounded: $viewModel.popup.success, popupError: $viewModel.popup.error) {
                 self.presentationMode.wrappedValue.dismiss()
             }
         }
+        .navigationBarBackButtonHidden()
     }
 }
 

@@ -15,7 +15,7 @@ struct PopupView: View {
         //      TROCAR CONDIÇÃO QUANDO TIVER A LÓGICA TES
 
         if allFounded {
-            VisualEffectView(effect: UIBlurEffect(style: .extraLight))
+            VisualEffectView(effect: UIBlurEffect(style: .systemUltraThinMaterial))
                 .edgesIgnoringSafeArea(.all)
                 .opacity(0.7)
                 .overlay {
@@ -24,7 +24,7 @@ struct PopupView: View {
                 }
         }
         if popupError {
-            VisualEffectView(effect: UIBlurEffect(style: .extraLight))
+            VisualEffectView(effect: UIBlurEffect(style: .systemChromeMaterial))
                 .edgesIgnoringSafeArea(.all)
                 .opacity(0.7)
                 .overlay {
@@ -53,15 +53,14 @@ struct PopupView: View {
                 Text("Next Level")
                     .frame(width: 300, height: 50)
                     .background(Color(red: 214/255, green: 154/255, blue: 58/255))
-                    .foregroundColor(.white)
+                    .foregroundColor(Color("systemBackground"))
                     .font(.system(size: 30, weight: .bold, design: .rounded))
             }.offset(y: 8)
         }
         .frame(width: 270, height: 200)
         .background {
             RoundedRectangle(cornerRadius: 25)
-                .fill(Color(.white))
-                .foregroundColor(.black)
+                .fill(Color("systemBackground"))
         }
         .clipShape(RoundedRectangle(cornerRadius: 15))
         .frame(width: 300)
