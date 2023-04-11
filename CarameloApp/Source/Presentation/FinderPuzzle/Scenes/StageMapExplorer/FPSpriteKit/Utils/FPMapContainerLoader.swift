@@ -58,7 +58,13 @@ struct FPMapContainerLoader: UIViewRepresentable {
 
         @objc func moveScreen(_ sender: UIPanGestureRecognizer) {
             let vel = sender.velocity(in: self.view)
-            scene?.player?.addVelocity(CGVector(dx: (-vel.x)*scene!.camera!.xScale, dy: (vel.y)*scene!.camera!.yScale))
+            let factor: CGFloat = 1.5
+            let newVel = CGVector(dx: (-vel.x)*scene!.camera!.xScale*factor, dy: (vel.y)*scene!.camera!.yScale*factor)
+            scene?.player?.addVelocity(newVel)
+
+            if sender.state == .ended {
+                scene?.player?.stop()
+            }
         }
 
     }
