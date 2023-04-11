@@ -81,13 +81,15 @@ struct OnBoardingView: View {
                             .foregroundColor(.white)
                         } else {
                             Button(action: {}, label: {
-                                Text("Vamos Começar")
+                                    Text("Vamos Começar")
                                     .foregroundColor(.black)
                                     .fontWeight(.semibold)
                                     .frame(maxWidth: .infinity)
                                     .frame(height: 60)
                                     .background(Capsule().fill(Color.white))
+
                             })
+                            .navigationTitle("PopupView")
                         }
                     }
                     .padding(.horizontal)
