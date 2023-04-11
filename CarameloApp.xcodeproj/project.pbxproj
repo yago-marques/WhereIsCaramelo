@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08199BE829E44C2A00329212 /* dog.json in Resources */ = {isa = PBXBuildFile; fileRef = 08199BE729E44C2A00329212 /* dog.json */; };
 		DF29EEB929D4A27A00BD9F81 /* FPRemoteCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29EEB829D4A27A00BD9F81 /* FPRemoteCity.swift */; };
 		DF29EEBB29D4A2C000BD9F81 /* FPRemoteStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29EEBA29D4A2C000BD9F81 /* FPRemoteStage.swift */; };
 		DF29EEBE29D4A34E00BD9F81 /* FPDatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29EEBD29D4A34E00BD9F81 /* FPDatabaseService.swift */; };
@@ -71,6 +72,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08199BE729E44C2A00329212 /* dog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dog.json; sourceTree = "<group>"; };
 		DF29EEB829D4A27A00BD9F81 /* FPRemoteCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPRemoteCity.swift; sourceTree = "<group>"; };
 		DF29EEBA29D4A2C000BD9F81 /* FPRemoteStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPRemoteStage.swift; sourceTree = "<group>"; };
 		DF29EEBD29D4A34E00BD9F81 /* FPDatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPDatabaseService.swift; sourceTree = "<group>"; };
@@ -255,8 +257,8 @@
 		DF5729CB29E43739003F253C /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				08199BE729E44C2A00329212 /* dog.json */,
 				DF5729D529E438FD003F253C /* View */,
-				DF5729CF29E4383E003F253C /* OnboardingView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -264,6 +266,7 @@
 		DF5729D529E438FD003F253C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DF5729CF29E4383E003F253C /* OnboardingView.swift */,
 				DF5729D629E43904003F253C /* UI Components */,
 			);
 			path = View;
@@ -647,6 +650,7 @@
 			files = (
 				DFD12FB929D1D67300BA7850 /* Assets.xcassets in Resources */,
 				DF5729B429D70CD2003F253C /* MapGameScene.sks in Resources */,
+				08199BE829E44C2A00329212 /* dog.json in Resources */,
 				DF5729B829D71757003F253C /* Assets.xcassets in Resources */,
 				DF5729B729D71757003F253C /* FPMapTileSet.sks in Resources */,
 			);

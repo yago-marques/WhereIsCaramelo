@@ -13,7 +13,7 @@ struct CarameloApp: App {
 
     var body: some Scene {
         WindowGroup {
-            CitiesListComposer.make()
+            OnBoardingView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
