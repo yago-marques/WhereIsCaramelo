@@ -23,10 +23,11 @@
 		DF5729CA29E4370C003F253C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = DF5729C929E4370C003F253C /* Lottie */; };
 		DF5729D029E4383E003F253C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5729CF29E4383E003F253C /* OnboardingView.swift */; };
 		DF5729D229E43867003F253C /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5729D129E43867003F253C /* OnboardingModel.swift */; };
-		DF5729D429E438F2003F253C /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5729D329E438F2003F253C /* LottieView.swift */; };
 		DF5729D829E58C2E003F253C /* OnboardingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5729D729E58C2E003F253C /* OnboardingItemView.swift */; };
 		DF5729DC29E58D28003F253C /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5729DB29E58D28003F253C /* OnboardingViewModel.swift */; };
 		DF5729DF29E58F2A003F253C /* OnboardingComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5729DE29E58F2A003F253C /* OnboardingComposer.swift */; };
+		DF5729E329E59A0A003F253C /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5729E229E59A0A003F253C /* LottieView.swift */; };
+		DF5729E729E59A6E003F253C /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5729E629E59A6E003F253C /* View.swift */; };
 		DF7986C729D5CA96003A559C /* CitiesListComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7986C629D5CA96003A559C /* CitiesListComposer.swift */; };
 		DF7986CE29D61849003A559C /* StageMapExplorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7986CD29D61849003A559C /* StageMapExplorerView.swift */; };
 		DF7986D029D61896003A559C /* MapGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7986CF29D61896003A559C /* MapGameScene.swift */; };
@@ -90,10 +91,11 @@
 		DF5729C629DB1B28003F253C /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
 		DF5729CF29E4383E003F253C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		DF5729D129E43867003F253C /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
-		DF5729D329E438F2003F253C /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		DF5729D729E58C2E003F253C /* OnboardingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItemView.swift; sourceTree = "<group>"; };
 		DF5729DB29E58D28003F253C /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		DF5729DE29E58F2A003F253C /* OnboardingComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingComposer.swift; sourceTree = "<group>"; };
+		DF5729E229E59A0A003F253C /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		DF5729E629E59A6E003F253C /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		DF7986C629D5CA96003A559C /* CitiesListComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesListComposer.swift; sourceTree = "<group>"; };
 		DF7986CD29D61849003A559C /* StageMapExplorerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageMapExplorerView.swift; sourceTree = "<group>"; };
 		DF7986CF29D61896003A559C /* MapGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapGameScene.swift; sourceTree = "<group>"; };
@@ -264,10 +266,9 @@
 			isa = PBXGroup;
 			children = (
 				DF5729DD29E58F18003F253C /* Composer */,
-				DF5729DA29E58D0C003F253C /* ViewModel */,
 				DF5729D929E58C7E003F253C /* Model */,
 				DF5729D529E438FD003F253C /* View */,
-				DF5729CF29E4383E003F253C /* OnboardingView.swift */,
+				DF5729DA29E58D0C003F253C /* ViewModel */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -276,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				DF5729D629E43904003F253C /* UI Components */,
+				DF5729CF29E4383E003F253C /* OnboardingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -283,7 +285,6 @@
 		DF5729D629E43904003F253C /* UI Components */ = {
 			isa = PBXGroup;
 			children = (
-				DF5729D329E438F2003F253C /* LottieView.swift */,
 				DF5729D729E58C2E003F253C /* OnboardingItemView.swift */,
 			);
 			path = "UI Components";
@@ -319,6 +320,31 @@
 				08199BE729E44C2A00329212 /* dog.json */,
 			);
 			path = LottieFiles;
+			sourceTree = "<group>";
+		};
+		DF5729E129E599FD003F253C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DF5729E529E59A51003F253C /* Extensions */,
+				DF5729E429E59A44003F253C /* UI Component */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DF5729E429E59A44003F253C /* UI Component */ = {
+			isa = PBXGroup;
+			children = (
+				DF5729E229E59A0A003F253C /* LottieView.swift */,
+			);
+			path = "UI Component";
+			sourceTree = "<group>";
+		};
+		DF5729E529E59A51003F253C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF5729E629E59A6E003F253C /* View.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		DF7986C529D5CA83003A559C /* Composer */ = {
@@ -499,6 +525,7 @@
 			children = (
 				DF5729CB29E43739003F253C /* Onboarding */,
 				DFD12FE729D2116600BA7850 /* FinderPuzzle */,
+				DF5729E129E599FD003F253C /* Utils */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -718,6 +745,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF5729E329E59A0A003F253C /* LottieView.swift in Sources */,
 				DF5729C729DB1B28003F253C /* PopupView.swift in Sources */,
 				DFB0B10A29D5AE08001B544A /* FPCityPresentationModel.swift in Sources */,
 				DF7986CE29D61849003A559C /* StageMapExplorerView.swift in Sources */,
@@ -730,7 +758,6 @@
 				DF29EEC429D4A5D500BD9F81 /* FinderPuzzleDatabase.swift in Sources */,
 				DFD12FBE29D1D67300BA7850 /* Persistence.swift in Sources */,
 				DFD12FE429D1DA4400BA7850 /* FinderPuzzleCity.swift in Sources */,
-				DF5729D429E438F2003F253C /* LottieView.swift in Sources */,
 				DFB0B10129D5A9DA001B544A /* FPStageBusinessModel.swift in Sources */,
 				DFB0B11129D5BAD3001B544A /* FPCitiesConfig.swift in Sources */,
 				DF5729D829E58C2E003F253C /* OnboardingItemView.swift in Sources */,
@@ -750,6 +777,7 @@
 				DF7986C729D5CA96003A559C /* CitiesListComposer.swift in Sources */,
 				DFEA14BA29D4C224003401C1 /* LoadCities.swift in Sources */,
 				DF5729BA29D7A514003F253C /* FPMapContainerLoader.swift in Sources */,
+				DF5729E729E59A6E003F253C /* View.swift in Sources */,
 				DF5729DC29E58D28003F253C /* OnboardingViewModel.swift in Sources */,
 				DF29EEB929D4A27A00BD9F81 /* FPRemoteCity.swift in Sources */,
 				DF29EEBE29D4A34E00BD9F81 /* FPDatabaseService.swift in Sources */,

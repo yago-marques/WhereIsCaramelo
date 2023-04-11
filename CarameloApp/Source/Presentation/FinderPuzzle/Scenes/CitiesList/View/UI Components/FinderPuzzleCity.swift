@@ -51,13 +51,3 @@ struct FinderPuzzleCity: View {
         .listRowSeparator(.hidden)
     }
 }
-
-extension View {
-    func deviceWidth(multiplier: Double = 1) -> Double {
-        UIScreen.main.bounds.width * multiplier
-    }
-
-    func deviceHeight(multiplier: Double = 1) -> Double {
-        UIScreen().bounds.width * multiplier
-    }
-}
