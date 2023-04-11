@@ -18,7 +18,7 @@ struct FinderPuzzleView: View {
                 List($viewModel.cities, id: \.id) { item in
                     if let map = item.currentMap.wrappedValue, item.wrappedValue.status == .unlocked {
                         NavigationLink(destination: StageMapExplorerComposer.make(
-                            cityName: item.wrappedValue.name,
+                            city: item.wrappedValue,
                             mapName: map
                         )) {
                             FinderPuzzleCity(presentatioModel: item)
