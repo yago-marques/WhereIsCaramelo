@@ -7,7 +7,7 @@
 
 import Foundation
 
-typealias CityListUseCases = LoadCities & CreateCity & VerifyFirstUserAccess & RegisterFirstUserAccess
+typealias CityListUseCases = LoadCities
 
 final class FinderPuzzleViewModel: ObservableObject {
     @Published var cities: [FPCityPresentationModel] = []
@@ -34,18 +34,12 @@ final class FinderPuzzleViewModel: ObservableObject {
         return presentationCities
     }
 
-    private func setupCitiesIfNeeded() async throws {
-        if try await useCases.isFirstAccess() {
-            for gameCity in FPGameCities.getDefault() {
-                try await self.useCases.addCity(gameCity)
-            }
-            try await useCases.registerFirstAccess()
-        }
+    func buildLayout() async throws {
+        try await self.fetchCities()
     }
 
-    func buildLayout() async throws {
-        try await self.setupCitiesIfNeeded()
-        try await self.fetchCities()
+    func allCitiesCompleted() -> Bool {
+        self.cities.first(where: {!$0.isDone}) != nil ? false : true
     }
 
 }

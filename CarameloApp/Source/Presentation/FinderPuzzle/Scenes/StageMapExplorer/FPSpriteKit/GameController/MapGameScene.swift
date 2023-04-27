@@ -11,19 +11,15 @@ import GameplayKit
 final class MapGameScene: SKScene {
 
     var presentAlert: (() -> Void) = { }
+    var dogTouched = false
 
     var player: FinderPuzzlePlayer?
     var temp: CGFloat = 0
     var scale: CGFloat = 0 {
         didSet {
-            if camera!.xScale + scale < 6 {
-                if scale <= temp {
-                    camera?.setScale(camera!.xScale + (camera!.xScale * 0.025))
-//                    configureCameraFinch()
-                } else {
-                    camera?.setScale(camera!.xScale - (camera!.xScale * 0.025))
-                }
-            } else {
+            if camera!.xScale + scale < 9, scale < temp {
+                camera?.setScale(camera!.xScale + (camera!.xScale * 0.025))
+            } else if scale > temp {
                 camera?.setScale(camera!.xScale - (camera!.xScale * 0.025))
             }
 
@@ -52,7 +48,7 @@ final class MapGameScene: SKScene {
         player?.stop()
     }
 
-    func touchDown(at pos: CGPoint) {
+    func touchDown(at pos: CGPoint, negationTouch: Bool = false) {
         let nodeAtPoint = atPoint(pos)
         if let map = nodeAtPoint as? SKTileMapNode {
             if map.name! == "dogArea" {
@@ -61,13 +57,19 @@ final class MapGameScene: SKScene {
                 let tile = map.tileDefinition(atColumn: column, row: row)
 
                 if tile?.userData?.value(forKey: "isDog") != nil {
+                    let generator = UINotificationFeedbackGenerator()
+                    generator.notificationOccurred(.error)
+                    dogTouched = true
                     presentAlert()
+                } else if !dogTouched, negationTouch {
+                    let generator = UIImpactFeedbackGenerator(style: .rigid)
+                    generator.impactOccurred()
                 }
             }
         }
     }
 
-    func setupCamera(heightMultiplier: Double = 0.22, widthMultiplier: Double = 1) {
+    func setupCamera() {
         guard let player else { return }
         let distance = SKRange(constantValue: 0)
         let playerConstraint = SKConstraint.distance(distance, to: player)
@@ -81,23 +83,5 @@ final class MapGameScene: SKScene {
 
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         stopCam()
-    }
-
-    func configureCameraFinch(landscape: Bool = false) {
-        if landscape {
-            guard let player else { return }
-            let distance = SKRange(constantValue: 0)
-            let playerConstraint = SKConstraint.distance(distance, to: player)
-
-            camera?.constraints = [playerConstraint]
-        } else {
-            let scale = camera!.xScale
-            let widthScale = scale < 1.95 ? scale < 1.75 ? scale*0.55 : scale*0.45 : scale*0.35
-            if scale > 1.3 {
-                setupCamera(heightMultiplier: scale*0.35, widthMultiplier: widthScale)
-            } else {
-                setupCamera(heightMultiplier: 0.19, widthMultiplier: 1.05)
-            }
-        }
     }
 }

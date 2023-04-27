@@ -7,11 +7,11 @@
 
 import Foundation
 
-typealias OnboardingUseCases = VerifyFirstUserAccess
+typealias OnboardingUseCases = RegisterFirstUserAccess & CreateCity
 
 class OnboardingViewModel: ObservableObject {
     @Published var onboardingItens: [OnboardingModel]
-    @Published var toCities: Bool = false
+    @Published var moveToCities: Bool = false
     private let useCases: OnboardingUseCases
 
     init(onboardingItens: [OnboardingModel], useCases: OnboardingUseCases) {
@@ -24,9 +24,11 @@ class OnboardingViewModel: ObservableObject {
     }
 
     @MainActor
-    func showOnboardingIfNeeded() async throws {
-        if try await !useCases.isFirstAccess() {
-            toCities = true
+    func setupCity() async throws {
+        for gameCity in FPGameCities.getDefault() {
+            try await self.useCases.addCity(gameCity)
         }
+        try await useCases.registerFirstAccess()
+        moveToCities = true
     }
 }

@@ -45,6 +45,8 @@ struct FinderPuzzleCity: View {
             .padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
 
             Image(presentatioModel.status.rawValue)
+                .resizable()
+                .frame(width: 50, height: 50)
         }
         .padding(EdgeInsets(top: 7, leading: 0, bottom: 7, trailing: 0))
         .shadow(color: .secondary.opacity(0.2), radius: 5, x: 0, y: 10)

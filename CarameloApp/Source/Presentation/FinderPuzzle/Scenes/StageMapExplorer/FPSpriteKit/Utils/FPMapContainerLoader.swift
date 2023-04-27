@@ -27,9 +27,11 @@ struct FPMapContainerLoader: UIViewRepresentable {
         func makeView(sceneName: String) -> SKView {
             let zoomGesture = UIPinchGestureRecognizer(target: self, action: #selector(Coordinator.zoomPinch))
             let panGesture = UIPanGestureRecognizer(target: self, action: #selector(Coordinator.moveScreen))
+            let tapGesture = UITapGestureRecognizer(target: self, action: #selector(Coordinator.tapScreen))
 
             view.addGestureRecognizer(zoomGesture)
             view.addGestureRecognizer(panGesture)
+            view.addGestureRecognizer(tapGesture)
 
             if let scene = GKScene(fileNamed: sceneName) {
                 // Get the SKScene from the loaded GKScene
@@ -65,6 +67,10 @@ struct FPMapContainerLoader: UIViewRepresentable {
             if sender.state == .ended {
                 scene?.player?.stop()
             }
+        }
+
+        @objc func tapScreen(_ sender: UITapGestureRecognizer) {
+            scene?.touchDown(at: sender.location(in: self.view), negationTouch: true)
         }
 
     }

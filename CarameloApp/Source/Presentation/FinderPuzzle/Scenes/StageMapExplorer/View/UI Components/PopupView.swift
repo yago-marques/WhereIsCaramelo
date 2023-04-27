@@ -37,10 +37,10 @@ struct PopupView: View {
     var popSuccess: some View {
         VStack {
             VStack(alignment: .center) {
-                Text("SCHLOPSCHLOPSCH!")
+                Text("Oiee")
                     .font(.system(size: 23, weight: .bold, design: .rounded))
                     .padding(.top, 60)
-                Text("You Found Me!")
+                Text("Você me encontrou!")
                     .padding(.top, -10)
                     .font(.system(size: 23, weight: .light, design: .rounded))
             }
@@ -50,7 +50,7 @@ struct PopupView: View {
                     action()
                 }
             }) {
-                Text("Next Level")
+                Text("Próxima fase")
                     .frame(width: 300, height: 50)
                     .background(Color(red: 214/255, green: 154/255, blue: 58/255))
                     .foregroundColor(Color("systemBackground"))
@@ -69,7 +69,7 @@ struct PopupView: View {
             Image("carameloStatus")
                 .resizable()
                 .frame(width: 250, height: 250)
-                .offset(y: -180)
+                .offset(y: -200)
             //            .alignmentGuide(.top) { $0[VerticalAlignment.center] }
         }
     }

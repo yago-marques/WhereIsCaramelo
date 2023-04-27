@@ -28,6 +28,23 @@ struct FinderPuzzleView: View {
 
             }
             .listStyle(.plain)
+
+            if viewModel.allCitiesCompleted() {
+                VStack {
+                    Text("Essa foi uma demonstração do nosso game loop, compartilhe a sua experiência respondendo a nossa pesquisa, para futuras melhorias e criação de fases e cidades")
+                        .multilineTextAlignment(.center)
+                        .padding(.bottom, 10)
+
+                    Button(action: {
+                        if let url = URL(string: "https://forms.gle/XTcg5NF5yw7csP8H7") {
+                           UIApplication.shared.open(url)
+                        }
+                    }) {
+                        Text("Responder pesquisa anônima")
+                    }
+                    .padding(.bottom, 50)
+                }
+            }
         }
         .padding(
             EdgeInsets(

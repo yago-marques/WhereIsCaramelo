@@ -9,10 +9,16 @@ import SwiftUI
 
 struct OnboardingComposer {
     static func make() -> some View {
-        OnBoardingView(
-            viewModel: OnboardingViewModel(
-                onboardingItens: OnboardingModel.getData(), useCases: FPDatabaseService(finderPuzzleDB: CoredataPersistanceManager(), appAccessManager: CoredataPersistanceManager())
+        let viewModel = OnboardingViewModel(
+            onboardingItens: OnboardingModel.getData(),
+            useCases: FPDatabaseService(
+                finderPuzzleDB: CoredataPersistanceManager(),
+                appAccessManager: CoredataPersistanceManager()
             )
+        )
+
+        return OnBoardingView(
+            viewModel: viewModel
         )
     }
 }

@@ -15,18 +15,6 @@ struct FPGameCities {
                 imageBackground: FPCityBackgrounds.fortaleza.rawValue,
                 stages: FPCityMaps.fortaleza().map{.init(map: $0, isDone: false)},
                 isDone: false
-            ),
-            .init(
-                name: FPCityNames.brasilia.rawValue,
-                imageBackground: FPCityBackgrounds.brasilia.rawValue,
-                stages: FPCityMaps.brasilia().map{.init(map: $0, isDone: false)},
-                isDone: false
-            ),
-            .init(
-                name: FPCityNames.rioDeJaneiro.rawValue,
-                imageBackground: FPCityBackgrounds.rioDeJaneiro.rawValue,
-                stages: FPCityMaps.rioDeJaneiro().map{.init(map: $0, isDone: false)},
-                isDone: false
             )
         ]
     }

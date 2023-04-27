@@ -80,26 +80,25 @@ struct OnBoardingView: View {
                                 .frame(height: 60)
                                 .foregroundColor(.white)
                             } else {
-                                NavigationLink(destination: CitiesListComposer.make()) {
-                                    Text("Vamos Começar")
-                                        .foregroundColor(.black)
-                                        .fontWeight(.semibold)
-                                        .frame(maxWidth: .infinity)
-                                        .frame(height: 60)
-                                        .background(Capsule().fill(Color.white))
-                                }
+                                Text("Vamos Começar")
+                                    .foregroundColor(.black)
+                                    .fontWeight(.semibold)
+                                    .frame(maxWidth: .infinity)
+                                    .frame(height: 60)
+                                    .background(Capsule().fill(Color.white))
+                                    .onTapGesture {
+                                        Task {
+                                            try await viewModel.setupCity()
+                                        }
+                                    }
                             }
                         }
                         .padding(.horizontal)
                     }
                 }
             }
-            .navigate(to: CitiesListComposer.make(), when: $viewModel.toCities)
-            .onAppear {
-                Task {
-                    try await viewModel.showOnboardingIfNeeded()
-                }
-            }
+            .navigate(to: CitiesListComposer.make(), when: $viewModel.moveToCities)
+            .navigationBarBackButtonHidden()
         }
     }
 }

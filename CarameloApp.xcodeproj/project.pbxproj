@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08199BE829E44C2A00329212 /* dog.json in Resources */ = {isa = PBXBuildFile; fileRef = 08199BE729E44C2A00329212 /* dog.json */; };
+		DF0ACD8929F967B50018F91F /* Fortaleza2.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF0ACD8829F967B50018F91F /* Fortaleza2.sks */; };
 		DF29EEB929D4A27A00BD9F81 /* FPRemoteCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29EEB829D4A27A00BD9F81 /* FPRemoteCity.swift */; };
 		DF29EEBB29D4A2C000BD9F81 /* FPRemoteStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29EEBA29D4A2C000BD9F81 /* FPRemoteStage.swift */; };
 		DF29EEBE29D4A34E00BD9F81 /* FPDatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29EEBD29D4A34E00BD9F81 /* FPDatabaseService.swift */; };
 		DF29EEC129D4A49700BD9F81 /* CoredataPersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29EEC029D4A49700BD9F81 /* CoredataPersistanceManager.swift */; };
 		DF29EEC429D4A5D500BD9F81 /* FinderPuzzleDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29EEC329D4A5D500BD9F81 /* FinderPuzzleDatabase.swift */; };
-		DF5729B429D70CD2003F253C /* MapGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF5729B329D70CD2003F253C /* MapGameScene.sks */; };
+		DF33A23E29F9DE69004D3682 /* Fortaleza3.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF33A23D29F9DE69004D3682 /* Fortaleza3.sks */; };
+		DF33A24029F9E3B0004D3682 /* Fortaleza4.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF33A23F29F9E3B0004D3682 /* Fortaleza4.sks */; };
+		DF33A24229F9F270004D3682 /* Fortaleza5.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF33A24129F9F270004D3682 /* Fortaleza5.sks */; };
+		DF33A24529F9F85C004D3682 /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = DF33A24329F9F85C004D3682 /* city.json */; };
+		DF33A24629F9F85C004D3682 /* map.json in Resources */ = {isa = PBXBuildFile; fileRef = DF33A24429F9F85C004D3682 /* map.json */; };
 		DF5729B729D71757003F253C /* FPMapTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF5729B529D71757003F253C /* FPMapTileSet.sks */; };
-		DF5729B829D71757003F253C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5729B629D71757003F253C /* Assets.xcassets */; };
 		DF5729BA29D7A514003F253C /* FPMapContainerLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5729B929D7A514003F253C /* FPMapContainerLoader.swift */; };
 		DF5729C029DB0C5F003F253C /* StageMapExplorerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5729BF29DB0C5F003F253C /* StageMapExplorerViewModel.swift */; };
 		DF5729C429DB0E60003F253C /* StageMapExplorerComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5729C329DB0E60003F253C /* StageMapExplorerComposer.swift */; };
@@ -56,6 +59,10 @@
 		DFEA14BA29D4C224003401C1 /* LoadCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA14B929D4C224003401C1 /* LoadCities.swift */; };
 		DFEA14BC29D4C29C003401C1 /* UpdateCityStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA14BB29D4C29C003401C1 /* UpdateCityStage.swift */; };
 		DFEA14BE29D4C2D9003401C1 /* CreateCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA14BD29D4C2D9003401C1 /* CreateCity.swift */; };
+		DFF7C85B29E6D53400BECCB3 /* AccessScannerComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF7C85A29E6D53400BECCB3 /* AccessScannerComposer.swift */; };
+		DFF7C85E29E6D99800BECCB3 /* AccessScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF7C85D29E6D99800BECCB3 /* AccessScannerView.swift */; };
+		DFF7C86029E6DA6000BECCB3 /* AccessScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF7C85F29E6DA6000BECCB3 /* AccessScannerViewModel.swift */; };
+		DFF93B0C29EF149F00DDA10F /* Fortaleza1.sks in Resources */ = {isa = PBXBuildFile; fileRef = DFF93B0B29EF149F00DDA10F /* Fortaleza1.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,15 +83,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08199BE729E44C2A00329212 /* dog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dog.json; sourceTree = "<group>"; };
+		DF0ACD8829F967B50018F91F /* Fortaleza2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fortaleza2.sks; sourceTree = "<group>"; };
 		DF29EEB829D4A27A00BD9F81 /* FPRemoteCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPRemoteCity.swift; sourceTree = "<group>"; };
 		DF29EEBA29D4A2C000BD9F81 /* FPRemoteStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPRemoteStage.swift; sourceTree = "<group>"; };
 		DF29EEBD29D4A34E00BD9F81 /* FPDatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPDatabaseService.swift; sourceTree = "<group>"; };
 		DF29EEC029D4A49700BD9F81 /* CoredataPersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataPersistanceManager.swift; sourceTree = "<group>"; };
 		DF29EEC329D4A5D500BD9F81 /* FinderPuzzleDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderPuzzleDatabase.swift; sourceTree = "<group>"; };
-		DF5729B329D70CD2003F253C /* MapGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MapGameScene.sks; sourceTree = "<group>"; };
+		DF33A23D29F9DE69004D3682 /* Fortaleza3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fortaleza3.sks; sourceTree = "<group>"; };
+		DF33A23F29F9E3B0004D3682 /* Fortaleza4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fortaleza4.sks; sourceTree = "<group>"; };
+		DF33A24129F9F270004D3682 /* Fortaleza5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fortaleza5.sks; sourceTree = "<group>"; };
+		DF33A24329F9F85C004D3682 /* city.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.json; sourceTree = "<group>"; };
+		DF33A24429F9F85C004D3682 /* map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = map.json; sourceTree = "<group>"; };
 		DF5729B529D71757003F253C /* FPMapTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FPMapTileSet.sks; sourceTree = "<group>"; };
-		DF5729B629D71757003F253C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF5729B929D7A514003F253C /* FPMapContainerLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPMapContainerLoader.swift; sourceTree = "<group>"; };
 		DF5729BF29DB0C5F003F253C /* StageMapExplorerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageMapExplorerViewModel.swift; sourceTree = "<group>"; };
 		DF5729C329DB0E60003F253C /* StageMapExplorerComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageMapExplorerComposer.swift; sourceTree = "<group>"; };
@@ -128,6 +138,10 @@
 		DFEA14B929D4C224003401C1 /* LoadCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadCities.swift; sourceTree = "<group>"; };
 		DFEA14BB29D4C29C003401C1 /* UpdateCityStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCityStage.swift; sourceTree = "<group>"; };
 		DFEA14BD29D4C2D9003401C1 /* CreateCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCity.swift; sourceTree = "<group>"; };
+		DFF7C85A29E6D53400BECCB3 /* AccessScannerComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessScannerComposer.swift; sourceTree = "<group>"; };
+		DFF7C85D29E6D99800BECCB3 /* AccessScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessScannerView.swift; sourceTree = "<group>"; };
+		DFF7C85F29E6DA6000BECCB3 /* AccessScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessScannerViewModel.swift; sourceTree = "<group>"; };
+		DFF93B0B29EF149F00DDA10F /* Fortaleza1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fortaleza1.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,7 +331,8 @@
 		DF5729E029E58F9B003F253C /* LottieFiles */ = {
 			isa = PBXGroup;
 			children = (
-				08199BE729E44C2A00329212 /* dog.json */,
+				DF33A24329F9F85C004D3682 /* city.json */,
+				DF33A24429F9F85C004D3682 /* map.json */,
 			);
 			path = LottieFiles;
 			sourceTree = "<group>";
@@ -404,7 +419,11 @@
 		DF7986DC29D61CD6003A559C /* MapScenes */ = {
 			isa = PBXGroup;
 			children = (
-				DF5729B329D70CD2003F253C /* MapGameScene.sks */,
+				DFF93B0B29EF149F00DDA10F /* Fortaleza1.sks */,
+				DF0ACD8829F967B50018F91F /* Fortaleza2.sks */,
+				DF33A23D29F9DE69004D3682 /* Fortaleza3.sks */,
+				DF33A23F29F9E3B0004D3682 /* Fortaleza4.sks */,
+				DF33A24129F9F270004D3682 /* Fortaleza5.sks */,
 			);
 			path = MapScenes;
 			sourceTree = "<group>";
@@ -413,7 +432,6 @@
 			isa = PBXGroup;
 			children = (
 				DF5729B529D71757003F253C /* FPMapTileSet.sks */,
-				DF5729B629D71757003F253C /* Assets.xcassets */,
 			);
 			path = MapTiles;
 			sourceTree = "<group>";
@@ -485,6 +503,7 @@
 		DFD12FB329D1D67300BA7850 /* CarameloApp */ = {
 			isa = PBXGroup;
 			children = (
+				DFD12FB829D1D67300BA7850 /* Assets.xcassets */,
 				DFD12FEA29D211F400BA7850 /* Application */,
 				DFD12FE929D211E600BA7850 /* Resources */,
 				DFD12FE529D2115000BA7850 /* Source */,
@@ -523,6 +542,7 @@
 		DFD12FE629D2115E00BA7850 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				DFF7C85C29E6D92400BECCB3 /* AppAccessScanner */,
 				DF5729CB29E43739003F253C /* Onboarding */,
 				DFD12FE729D2116600BA7850 /* FinderPuzzle */,
 				DF5729E129E599FD003F253C /* Utils */,
@@ -550,7 +570,6 @@
 			isa = PBXGroup;
 			children = (
 				DF5729E029E58F9B003F253C /* LottieFiles */,
-				DFD12FB829D1D67300BA7850 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -604,6 +623,40 @@
 				DF29EEBD29D4A34E00BD9F81 /* FPDatabaseService.swift */,
 			);
 			path = Persistance;
+			sourceTree = "<group>";
+		};
+		DFF7C85C29E6D92400BECCB3 /* AppAccessScanner */ = {
+			isa = PBXGroup;
+			children = (
+				DFF7C86329E6E2CE00BECCB3 /* ViewModel */,
+				DFF7C86229E6E2C100BECCB3 /* View */,
+				DFF7C86129E6E2B700BECCB3 /* Composer */,
+			);
+			path = AppAccessScanner;
+			sourceTree = "<group>";
+		};
+		DFF7C86129E6E2B700BECCB3 /* Composer */ = {
+			isa = PBXGroup;
+			children = (
+				DFF7C85A29E6D53400BECCB3 /* AccessScannerComposer.swift */,
+			);
+			path = Composer;
+			sourceTree = "<group>";
+		};
+		DFF7C86229E6E2C100BECCB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DFF7C85D29E6D99800BECCB3 /* AccessScannerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DFF7C86329E6E2CE00BECCB3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DFF7C85F29E6DA6000BECCB3 /* AccessScannerViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -716,10 +769,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF33A23E29F9DE69004D3682 /* Fortaleza3.sks in Resources */,
 				DFD12FB929D1D67300BA7850 /* Assets.xcassets in Resources */,
-				DF5729B429D70CD2003F253C /* MapGameScene.sks in Resources */,
-				08199BE829E44C2A00329212 /* dog.json in Resources */,
-				DF5729B829D71757003F253C /* Assets.xcassets in Resources */,
+				DF33A24629F9F85C004D3682 /* map.json in Resources */,
+				DF33A24529F9F85C004D3682 /* city.json in Resources */,
+				DF33A24229F9F270004D3682 /* Fortaleza5.sks in Resources */,
+				DFF93B0C29EF149F00DDA10F /* Fortaleza1.sks in Resources */,
+				DF0ACD8929F967B50018F91F /* Fortaleza2.sks in Resources */,
+				DF33A24029F9E3B0004D3682 /* Fortaleza4.sks in Resources */,
 				DF5729B729D71757003F253C /* FPMapTileSet.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -750,8 +807,10 @@
 				DFB0B10A29D5AE08001B544A /* FPCityPresentationModel.swift in Sources */,
 				DF7986CE29D61849003A559C /* StageMapExplorerView.swift in Sources */,
 				DFEA14BE29D4C2D9003401C1 /* CreateCity.swift in Sources */,
+				DFF7C85E29E6D99800BECCB3 /* AccessScannerView.swift in Sources */,
 				DFEA14B629D4B37B003401C1 /* FPCityBusinessModel.swift in Sources */,
 				DF5729C429DB0E60003F253C /* StageMapExplorerComposer.swift in Sources */,
+				DFF7C85B29E6D53400BECCB3 /* AccessScannerComposer.swift in Sources */,
 				DFB0B11529D5C6D4001B544A /* RegisterFirstUserAccess.swift in Sources */,
 				DF7986D029D61896003A559C /* MapGameScene.swift in Sources */,
 				DF5729DF29E58F2A003F253C /* OnboardingComposer.swift in Sources */,
@@ -764,6 +823,7 @@
 				DF29EEC129D4A49700BD9F81 /* CoredataPersistanceManager.swift in Sources */,
 				DFD12FED29D2125E00BA7850 /* CarameloApp.xcdatamodeld in Sources */,
 				DF5729D029E4383E003F253C /* OnboardingView.swift in Sources */,
+				DFF7C86029E6DA6000BECCB3 /* AccessScannerViewModel.swift in Sources */,
 				DF29EEBB29D4A2C000BD9F81 /* FPRemoteStage.swift in Sources */,
 				DFB0B10F29D5B73B001B544A /* FPGameCities.swift in Sources */,
 				DF7986D529D619D1003A559C /* SKTileMapNode+Physics.swift in Sources */,
@@ -871,7 +931,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -925,7 +985,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -940,17 +1000,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CarameloApp/Resources\"";
-				DEVELOPMENT_TEAM = XPQY9CM5FF;
+				DEVELOPMENT_TEAM = 3PC4MSN8T7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CarameloAppInfo.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Where's Caramelo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -958,12 +1021,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.yago.CarameloApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -972,17 +1035,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CarameloApp/Resources\"";
-				DEVELOPMENT_TEAM = XPQY9CM5FF;
+				DEVELOPMENT_TEAM = 3PC4MSN8T7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CarameloAppInfo.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Where's Caramelo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -990,12 +1056,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.yago.CarameloApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

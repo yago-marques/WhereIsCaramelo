@@ -13,7 +13,7 @@ struct CarameloApp: App {
 
     var body: some Scene {
         WindowGroup {
-            OnboardingComposer.make()
+            AccessScannerComposer.make()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
